@@ -1,0 +1,44 @@
+package pageEvent;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import pageObject.SecondStep;
+
+public class TabsAndWindows implements SecondStep{
+	
+	WebDriver driver;
+	WebDriverWait wait;
+	
+	@FindBy(xpath =clickHerebtn)
+	public WebElement butt;
+	
+	public TabsAndWindows(WebDriver driver)
+	{
+		this.driver = driver;
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void switchToAnotherTab()
+	{
+        String currentWindowHandle = driver.getWindowHandle(); 
+        wait.until(ExpectedConditions.visibilityOf(butt));
+        butt.click(); 
+        for (String windowHandle : driver.getWindowHandles()) {
+            if (!windowHandle.equals(currentWindowHandle)) {
+                driver.switchTo().window(windowHandle);
+                break;
+            }
+        }
+        String newUrl = driver.getCurrentUrl(); 
+        Assert.assertNotEquals(newUrl, currentWindowHandle);
+    }
+}

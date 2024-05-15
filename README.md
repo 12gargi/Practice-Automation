@@ -66,30 +66,55 @@ a retry analyzer to test methods annotated with `@Test`.
 **5. Test Scripts:**
 
 - `TestScripts.java`: This class contains actual test scripts written using TestNG. It extends `BaseTest.java` to inherit setup and teardown methods. Test methods are written here and are responsible for interacting with the PageObjects and executing test steps.
+  
 - The component onto which tests are scripted are
-  1.Accordions
-      --Testcase1 : To verify That Accordions Are Working as Expected.
-  2.Alets
-      --Testcase1: To Validate Alert's Message.
-  3.DialogBox
-      --Testcase1: Verify that the user can successfully enter data into a dialog box and create an account through Dialog Box.
-  4.DropDown
-      --Testcase1: Verify that the dropdown selection functionality works as expected.
-  5.ProgressBar
-     --Testcase1: Verify Progress Bar Button Functionality
-     --Testcase2: Verify Progress Bar Reaches 100% Completion
-  6.Multiple Element selection
-     --Testcase1: Verify that it can select Multiple Element
-  7.Sliders
-     --Testcase1: Verify Slider's Movement
-  8.Sortables
-     --Testcase1: Verfiy if interchange of feed's And Shopping's position is possible 
-  9.Spinner
-     --Testcase1: Verifying Spinner's Functionality
-  10.Tabs And Windows
-     --Testcase1: Verify That After Clicking Button It Changes the Tab
-  11.ToolTip
-     --Testcase1: Verify whether the tooltip works as expected.
+
+  
+  **1.Accordions**
+  
+      Testcase1 : Verify That Accordions Are Working as Expected.
+  
+  **2.Alerts**
+  
+      Testcase1: Validate Alert's Message.
+  
+  **3.DialogBox**
+  
+      Testcase1: Verify that the user can successfully enter data into a dialog box and create an account through Dialog Box.
+  
+  **4.DropDown**
+  
+      Testcase1: Verify that the dropdown selection functionality works as expected.
+  
+  **5.ProgressBar**
+  
+     Testcase1: Verify progressbar button functionality.
+  
+     Testcase2: Verify progressbar reaches 100% completion.
+  
+  **6.Multiple Element selection**
+  
+     Testcase1: Verify that it can select multiple element.
+  
+  **7.Sliders**
+  
+     Testcase1: Verify slider's movement.
+  
+  **8.Sortables**
+  
+     Testcase1: Verfiy if interchange of feed's and shopping's position is possible.
+  
+  **9.Spinner**
+  
+     Testcase1: Verifying spinner's functionality.
+  
+  **10.Tabs And Windows**
+  
+     Testcase1: Verify that after clicking button it changes the tab.
+  
+  **11.ToolTip**
+  
+     Testcase1: Verify whether the tooltip works as expected.
 
 **6. Configurations:**
 

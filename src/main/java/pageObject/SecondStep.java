@@ -10,5 +10,5 @@ public interface SecondStep {
 	
 	//SelectElements
 	String frame = "//*[@id=\"post-2649\"]/div[2]/div/div/div[1]/p/iframe";
-	
+    String multiSelect = "//*[@id=\"selectable\"]";
 }

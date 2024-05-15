@@ -9,14 +9,14 @@ import utils.Routes;
 
 public class TabsAndWindowsTest extends BaseTest {
 	
-	TabsAndWindows taw;
+	TabsAndWindows tabsAndwindows;
 	
 	@Test(description = "Test To Verify That After Clicking Button It Changes the Tab")
 	public void testToSwitchToOtherTab()
 	{
-		startUp(Routes.framesAndWindows);
-		taw = new TabsAndWindows(driver);
-		taw.switchToAnotherTab();
+		//startUp(Routes.framesAndWindows);
+		tabsAndwindows = new TabsAndWindows(driver);
+		tabsAndwindows.switchToAnotherTab();
 		
 	}
 	

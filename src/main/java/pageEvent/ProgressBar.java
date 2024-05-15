@@ -31,7 +31,7 @@ public class ProgressBar implements FirstStep{
     public WebElement prog;
     
     @FindBy(xpath = close)
-    public WebElement clo;
+    public WebElement closebtn;
     
     
     public ProgressBar(WebDriver driver) {
@@ -72,7 +72,7 @@ public class ProgressBar implements FirstStep{
             driver.switchTo().defaultContent();
         }
         
-        clo.click();
+        closebtn.click();
     }
 
 

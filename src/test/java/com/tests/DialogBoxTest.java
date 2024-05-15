@@ -12,7 +12,7 @@ public class DialogBoxTest extends BaseTest {
 	 @Test(description = "test to verify modal dialog box")
 	 public void ToEnterdialogBox()
 	 {
-		 startUp(Routes.dialogbox);
+		 //startUp(Routes.dialogbox);
 		 box =new DialogBox(driver);
 		 box.enterIntoDialogBox();
 	 }

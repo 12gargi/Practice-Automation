@@ -38,7 +38,7 @@ public class DialogBox implements FirstStep {
 	public WebElement pass;
 	
 	@FindBy(xpath=createButton)
-	public WebElement create;
+	public WebElement createbtn;
 	
 	public DialogBox(WebDriver driver) {
 	    this.driver = driver;
@@ -55,7 +55,7 @@ public class DialogBox implements FirstStep {
         user.sendKeys("john");
         mail.sendKeys("john@gmail.com");
         pass.sendKeys("hell");
-        create.click();
+        createbtn.click();
  
 		String expectedUrl = "https://www.globalsqa.com/demo-site/dialog-boxes/";
 		Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);

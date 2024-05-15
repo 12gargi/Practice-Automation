@@ -9,6 +9,7 @@
           <include name="teardown"/>
           <include name="tearEnd"/>
           <include name="testFor100PercentCompletion"/>
+          <include name="startUp"/>
         </methods>
       </class> <!-- com.tests.ProgressBarTest -->
     </classes>

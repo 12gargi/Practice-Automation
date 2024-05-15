@@ -8,15 +8,15 @@ import utils.Routes;
 
 public class SliderTest extends BaseTest {
 
-	Slider slide ;
+	Slider slider ;
 	
 	
 	@Test(description = "Verifying Sliders Are Working")
 	public void VerifyingSlidersAreWorking()
 	{
-		startUp(Routes.slider);
-		slide =new Slider(driver);
-		slide.SliderCanSlide();
+//		startUp(Routes.slider);
+		slider =new Slider(driver);
+		slider.SliderCanSlide();
 	}
 
 }

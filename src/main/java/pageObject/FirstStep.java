@@ -3,6 +3,7 @@ package pageObject;
 public interface FirstStep {
 	
 	//Tabs
+	String AccordFrame = "//*[@id=\"post-2654\"]/div[2]/div/div/div[1]/p/iframe";
 	String acordHeader = ".ui-accordion-header";
 	String Accordions = "//*[@id=\"accordion\"]";
 	

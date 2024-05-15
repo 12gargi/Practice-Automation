@@ -8,14 +8,14 @@ import utils.Routes;
 
 public class DropDownTest extends BaseTest {
 
-    DropDown down;
+    DropDown dropdown;
     
     @Test(description = "Test for Validation of DropDown")
     public void testForDropDowselection() {
         
-        startUp(Routes.DropDown);
+       // startUp(Routes.DropDown);
         
-        down = new DropDown(driver);
-        down.testForDropdown();
+        dropdown = new DropDown(driver);
+        dropdown.testForDropdown();
     }
 }

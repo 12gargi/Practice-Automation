@@ -35,15 +35,16 @@ public class BaseTest {
         sparkReporter.config().setReportName("Functionality Test");
     }
 
-//    @BeforeMethod
+    @BeforeMethod
     @Parameters("endpoint")
     public void startUp(@Optional String endpoint) {
-        driver = new ChromeDriver();
-//        ChromeOptions options = new ChromeOptions();
+        //driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--start-maximized");
-//        driver = new ChromeDriver(options);
-//        driver.get(Routes.base_url + endpoint);
-        driver.get(Routes.ProgressBar);
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
+        driver.get(Routes.base_url + endpoint);
+       // driver.get(Routes.ProgressBar);
         driver.manage().window().maximize();// Concatenate base URL with endpoint
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }

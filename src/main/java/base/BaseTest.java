@@ -27,7 +27,7 @@ public class BaseTest {
     @BeforeTest
     public void beforeTest() {
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(
-                System.getProperty("user.dir") + File.separator + "reports" + File.separator + "PageFactory");
+        System.getProperty("user.dir") + File.separator + "reports" + File.separator + "PageFactory");
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
         sparkReporter.config().setTheme(Theme.DARK);
@@ -38,13 +38,13 @@ public class BaseTest {
     @BeforeMethod
     @Parameters("endpoint")
     public void startUp(@Optional String endpoint) {
-        //driver = new ChromeDriver();
+//        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--start-maximized");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get(Routes.base_url + endpoint);
-       // driver.get(Routes.ProgressBar);
+//        driver.get(Routes.Sortable);
         driver.manage().window().maximize();// Concatenate base URL with endpoint
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }

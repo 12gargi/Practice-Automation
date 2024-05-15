@@ -19,5 +19,9 @@ public interface Routes {
 	public static String DropDown = base_url+"select-dropdown-menu/";
 	
 	public static String SelectElements = base_url + "select-elements/";
+	
+	public static String Spinner = base_url + "spinner/";
+	
+	public static String Sortable = base_url + "sorting/";
 
 }

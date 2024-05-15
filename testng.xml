@@ -4,51 +4,74 @@
   <test thread-count="2" name="Test1">
     <parameter name="endpoint" value="dialog-boxes/" />
     <classes>
-      <class name="com.tests.DialogBoxTest"/>
+      <class name="tests.DialogBoxTest"/>
     </classes>
   </test> <!-- Test -->
 
   <test thread-count="2" name="Test2">
     <parameter name="endpoint" value="accordion-and-tabs/" />
     <classes>
-      <class name="com.tests.AccordionTests"/>
+      <class name="tests.AccordionTests"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="2" name="Test3">
     <parameter name="endpoint" value="select-dropdown-menu/" />
     <classes>
-      <class name="com.tests.DropDownTest"/>
+      <class name="tests.DropDownTest"/>
     </classes>
   </test>
   
     <test thread-count="2" name="Test4">
     <parameter name="endpoint" value="progress-bar/" />
     <classes>
-      <class name="com.tests.ProgressBarTest"/>
+      <class name="tests.ProgressBarTest"/>
     </classes>
   </test>
   
   <test thread-count="2" name="Test5">
     <parameter name="endpoint" value="sliders/" />
     <classes>
-      <class name="com.tests.SliderTest"/>
+      <class name="tests.SliderTest"/>
     </classes>
   </test>
   
   <test thread-count="2" name="Test6">
     <parameter name="endpoint" value="frames-and-windows/" />
     <classes>
-      <class name="com.tests.TabsAndWindowsTest"/>
+      <class name="tests.TabsAndWindowsTest"/>
     </classes>
   </test>
   
   <test thread-count="2" name="Test7">
     <parameter name="endpoint" value="tooltip/" />
     <classes>
-      <class name="com.tests.ToolTipTest"/>
+      <class name="tests.ToolTipTest"/>
     </classes>
   </test>
+  
+  <test thread-count="2" name="Test8">
+    <parameter name="endpoint" value="select-elements/" />
+    <classes>
+      <class name="tests.SelectElementsTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" name="Test9">
+    <parameter name="endpoint" value="spinner/" />
+    <classes>
+      <class name="tests.SpinnerTest"/>
+    </classes>
+  </test>
+  
+   <test thread-count="2" name="Test10">
+    <parameter name="endpoint" value="sorting/" />
+    <classes>
+      <class name="tests.SortableTest"/>
+    </classes>
+  </test>
+  
+ 
   
   
 

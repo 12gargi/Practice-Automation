@@ -4,21 +4,21 @@
   <test thread-count="5" name="Test2(failed)">
     <parameter name="endpoint" value="accordion-and-tabs/"/>
     <classes>
-      <class name="com.tests.AccordionTests">
+      <class name="tests.AccordionTests">
         <methods>
           <include name="beforeTest"/>
           <include name="teardown"/>
-          <include name="tearEnd"/>
           <include name="verifyThatAccordionsAreWorking"/>
+          <include name="tearEnd"/>
           <include name="startUp"/>
         </methods>
-      </class> <!-- com.tests.AccordionTests -->
+      </class> <!-- tests.AccordionTests -->
     </classes>
   </test> <!-- Test2(failed) -->
   <test thread-count="5" name="Test4(failed)">
     <parameter name="endpoint" value="progress-bar/"/>
     <classes>
-      <class name="com.tests.ProgressBarTest">
+      <class name="tests.ProgressBarTest">
         <methods>
           <include name="beforeTest"/>
           <include name="teardown"/>
@@ -26,21 +26,21 @@
           <include name="testFor100PercentCompletion"/>
           <include name="startUp"/>
         </methods>
-      </class> <!-- com.tests.ProgressBarTest -->
+      </class> <!-- tests.ProgressBarTest -->
     </classes>
   </test> <!-- Test4(failed) -->
   <test thread-count="5" name="Test5(failed)">
     <parameter name="endpoint" value="sliders/"/>
     <classes>
-      <class name="com.tests.SliderTest">
+      <class name="tests.SliderTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="teardown"/>
           <include name="VerifyingSlidersAreWorking"/>
+          <include name="teardown"/>
           <include name="tearEnd"/>
           <include name="startUp"/>
         </methods>
-      </class> <!-- com.tests.SliderTest -->
+      </class> <!-- tests.SliderTest -->
     </classes>
   </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->

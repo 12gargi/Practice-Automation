@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.ProgressBarTest">
+      <class name="tests.SortableTest">
         <methods>
           <include name="beforeTest"/>
           <include name="teardown"/>
           <include name="tearEnd"/>
-          <include name="testFor100PercentCompletion"/>
+          <include name="ToTestShoppingAndFeedsPositions"/>
           <include name="startUp"/>
         </methods>
-      </class> <!-- com.tests.ProgressBarTest -->
+      </class> <!-- tests.SortableTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

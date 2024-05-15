@@ -25,7 +25,7 @@ jobs:
           cache: maven
       
       - name: Run  Tests
-        run: mvn test -Dtest=com.tests.AccordionTests,com.tests.AlertsSeparateTest,com.tests.DialogBoxTest,com.tests.DropDownTest,com.tests.ProgressBarTest,com.tests.SliderTest,com.tests.TabsAndWindowsTest,com.tests.ToolTipTest
+        run: mvn test -Dtest=tests.AccordionTests,tests.AlertsSeparateTest,tests.DialogBoxTest,tests.DropDownTest,tests.ProgressBarTest,tests.SliderTest,tests.TabsAndWindowsTest,tests.ToolTipTest
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3

@@ -1,43 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test1(failed)">
+  <test thread-count="5" name="DialogBox(failed)">
     <parameter name="endpoint" value="dialog-boxes/"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="tests.DialogBoxTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUpMethod"/>
           <include name="ToEnterdialogBox"/>
         </methods>
       </class> <!-- tests.DialogBoxTest -->
     </classes>
-  </test> <!-- Test1(failed) -->
-  <test thread-count="5" name="Test2(failed)">
+  </test> <!-- DialogBox(failed) -->
+  <test thread-count="5" name="Accordions(failed)">
     <parameter name="endpoint" value="accordion-and-tabs/"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="tests.AccordionTests">
         <methods>
-          <include name="tearDown"/>
           <include name="verifyThatAccordionsAreWorking"/>
           <include name="setUpMethod"/>
         </methods>
       </class> <!-- tests.AccordionTests -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" name="Test4(failed)">
+  </test> <!-- Accordions(failed) -->
+  <test thread-count="5" name="ProgressBar(failed)">
     <parameter name="endpoint" value="progress-bar/"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="tests.ProgressBarTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUpMethod"/>
           <include name="testFor100PercentCompletion"/>
         </methods>
       </class> <!-- tests.ProgressBarTest -->
     </classes>
-  </test> <!-- Test4(failed) -->
+  </test> <!-- ProgressBar(failed) -->
+  <test thread-count="5" name="MultipleElements(failed)">
+    <parameter name="endpoint" value="select-elements/"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.SelectElementsTest">
+        <methods>
+          <include name="setUpMethod"/>
+          <include name="toVerifyMultipleSelect"/>
+        </methods>
+      </class> <!-- tests.SelectElementsTest -->
+    </classes>
+  </test> <!-- MultipleElements(failed) -->
 </suite> <!-- Failed suite [Suite] -->

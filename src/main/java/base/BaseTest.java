@@ -35,10 +35,12 @@ public class BaseTest {
                 System.out.println("Chrome driver launched");
             } else if (browser.equalsIgnoreCase("edge")) {
                 WebDriverManager.edgedriver().setup();
-                // EdgeOptions edgeOptions = new EdgeOptions(); // Not required for Chrome
-                // edgeOptions.addArguments("--headless"); // Not required for Chrome
-                // driver = new EdgeDriver(edgeOptions); // Not required for Chrome
-                // System.out.println("Edge driver launched"); // Not required for Chrome
+             // EdgeOptions edgeOptions = new EdgeOptions(); // Not required for Chrome
+             // edgeOptions.addArguments("--headless"); // Not required for Chrome
+             // driver = new EdgeDriver(edgeOptions); // Not required for Chrome
+             // System.out.println("Edge driver launched"); // Not required for Chrome
+            } else {
+                throw new WebDriverException("Unsupported browser: " + browser);
             }
         } catch (Exception e) {
             System.out.println("Failed to create WebDriver session: " + e.getMessage());
@@ -46,17 +48,17 @@ public class BaseTest {
             throw new WebDriverException("WebDriver initialization failed: " + e.getMessage());
         }
 
-        if (driver != null) {
-            driver.get(Routes.base_url + endpoint);
+        if (driver != null && endpoint != null) {
+            String baseUrl = Routes.base_url; // Assuming base_url is defined correctly
+            String fullUrl = baseUrl + endpoint;
+            driver.get(fullUrl);
             driver.manage().window().maximize(); // Maximizing window
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15)); // Setting implicit wait
         }
     }
-
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
 }
+
+
+
+
+

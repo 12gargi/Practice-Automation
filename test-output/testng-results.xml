@@ -1,228 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="7" failed="4" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-16T15:55:54 IST" name="Suite" finished-at="2024-05-16T16:00:03 IST" duration-ms="249707">
+  <suite started-at="2024-05-16T16:25:17 IST" name="Suite" finished-at="2024-05-16T16:27:08 IST" duration-ms="110552">
     <groups>
     </groups>
-    <test started-at="2024-05-16T15:55:54 IST" name="DialogBox" finished-at="2024-05-16T15:56:13 IST" duration-ms="19070">
-      <class name="tests.DialogBoxTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.DialogBoxTest@2a7f1f10]" started-at="2024-05-16T15:55:54 IST" name="beforeTest" finished-at="2024-05-16T15:55:54 IST" duration-ms="519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.DialogBoxTest@2a7f1f10]" started-at="2024-05-16T15:55:54 IST" name="startUp" finished-at="2024-05-16T15:56:02 IST" duration-ms="7314" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dialog-boxes/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="ToEnterdialogBox()[pri:0, instance:tests.DialogBoxTest@2a7f1f10]" started-at="2024-05-16T15:56:02 IST" name="ToEnterdialogBox" description="test to verify modal dialog box" finished-at="2024-05-16T15:56:12 IST" duration-ms="10245" status="FAIL">
-          <exception class="org.openqa.selenium.JavascriptException">
-            <message>
-              <![CDATA[javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10f9b1fdbbedad8706efff773124a6ad, findElement {using=css selector, value=//*[@id="create-user"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54580/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10f9b1fdbbedad8706efff773124a6ad]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10f9b1fdbbedad8706efff773124a6ad, findElement {using=css selector, value=//*[@id="create-user"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54580/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10f9b1fdbbedad8706efff773124a6ad
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
-at pageEvent.DialogBox.enterIntoDialogBox(DialogBox.java:54)
-at tests.DialogBoxTest.ToEnterdialogBox(DialogBoxTest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.JavascriptException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ToEnterdialogBox -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DialogBoxTest@2a7f1f10]" started-at="2024-05-16T15:56:12 IST" name="teardown" finished-at="2024-05-16T15:56:12 IST" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.DialogBoxTest@2a7f1f10]" started-at="2024-05-16T15:56:12 IST" name="tearEnd" finished-at="2024-05-16T15:56:13 IST" duration-ms="555" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearEnd -->
-      </class> <!-- tests.DialogBoxTest -->
-    </test> <!-- DialogBox -->
-    <test started-at="2024-05-16T15:56:13 IST" name="Accordions" finished-at="2024-05-16T15:56:57 IST" duration-ms="43658">
-      <class name="tests.AccordionTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.AccordionTests@4c60d6e9]" started-at="2024-05-16T15:56:13 IST" name="beforeTest" finished-at="2024-05-16T15:56:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.AccordionTests@4c60d6e9]" started-at="2024-05-16T15:56:13 IST" name="startUp" finished-at="2024-05-16T15:56:21 IST" duration-ms="7801" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[accordion-and-tabs/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="verifyThatAccordionsAreWorking()[pri:0, instance:tests.AccordionTests@4c60d6e9]" started-at="2024-05-16T15:56:21 IST" name="verifyThatAccordionsAreWorking" description="To verify That Accordions Are Working" finished-at="2024-05-16T15:56:56 IST" duration-ms="35270" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".demo-frame.lazyloaded"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a1f47d18c99e3aade4e4a2839fbcc45c, findElement {using=css selector, value=.demo-frame.lazyloaded}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54653/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a1f47d18c99e3aade4e4a2839fbcc45c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".demo-frame.lazyloaded"}
-  (Session info: chrome=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a1f47d18c99e3aade4e4a2839fbcc45c, findElement {using=css selector, value=.demo-frame.lazyloaded}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54653/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a1f47d18c99e3aade4e4a2839fbcc45c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1105)
-at pageEvent.AccordionsAndTabs.switchToAframe(AccordionsAndTabs.java:42)
-at pageEvent.AccordionsAndTabs.accordionsIsWorking(AccordionsAndTabs.java:47)
-at tests.AccordionTests.verifyThatAccordionsAreWorking(AccordionTests.java:18)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyThatAccordionsAreWorking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AccordionTests@4c60d6e9]" started-at="2024-05-16T15:56:56 IST" name="teardown" finished-at="2024-05-16T15:56:57 IST" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.AccordionTests@4c60d6e9]" started-at="2024-05-16T15:56:57 IST" name="tearEnd" finished-at="2024-05-16T15:56:57 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearEnd -->
-      </class> <!-- tests.AccordionTests -->
-    </test> <!-- Accordions -->
-    <test started-at="2024-05-16T15:56:57 IST" name="Dropdown" finished-at="2024-05-16T15:57:15 IST" duration-ms="18348">
+    <test started-at="2024-05-16T16:25:17 IST" name="Dropdown" finished-at="2024-05-16T16:25:38 IST" duration-ms="20437">
       <class name="tests.DropDownTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.DropDownTest@7f485fda]" started-at="2024-05-16T15:56:57 IST" name="beforeTest" finished-at="2024-05-16T15:56:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:17 IST" name="beforeTest" finished-at="2024-05-16T16:25:18 IST" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.DropDownTest@7f485fda]" started-at="2024-05-16T15:56:57 IST" name="startUp" finished-at="2024-05-16T15:57:03 IST" duration-ms="6731" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:18 IST" name="startUp" finished-at="2024-05-16T16:25:25 IST" duration-ms="7338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,117 +22,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="testForDropDowselection()[pri:0, instance:tests.DropDownTest@7f485fda]" started-at="2024-05-16T15:57:03 IST" name="testForDropDowselection" description="Test for Validation of DropDown" finished-at="2024-05-16T15:57:15 IST" duration-ms="11193" status="PASS">
+        <test-method signature="testForDropDowselection()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:25 IST" name="testForDropDowselection" description="Test for Validation of DropDown" finished-at="2024-05-16T16:25:37 IST" duration-ms="11383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForDropDowselection -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DropDownTest@7f485fda]" started-at="2024-05-16T15:57:15 IST" name="teardown" finished-at="2024-05-16T15:57:15 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:37 IST" name="teardown" finished-at="2024-05-16T16:25:37 IST" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.DropDownTest@7f485fda]" started-at="2024-05-16T15:57:15 IST" name="tearEnd" finished-at="2024-05-16T15:57:15 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:37 IST" name="tearEnd" finished-at="2024-05-16T16:25:38 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.DropDownTest -->
     </test> <!-- Dropdown -->
-    <test started-at="2024-05-16T15:57:15 IST" name="ProgressBar" finished-at="2024-05-16T15:58:19 IST" duration-ms="64497">
-      <class name="tests.ProgressBarTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:57:15 IST" name="beforeTest" finished-at="2024-05-16T15:57:15 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:57:15 IST" name="startUp" finished-at="2024-05-16T15:57:21 IST" duration-ms="6418" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[progress-bar/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="testFor100PercentCompletion()[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:57:21 IST" name="testFor100PercentCompletion" description="test to verify ProgressBar completes 100%" finished-at="2024-05-16T15:58:02 IST" duration-ms="40449" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed to complete progress bar to 100%]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed to complete progress bar to 100%
-at org.testng.Assert.fail(Assert.java:110)
-at pageEvent.ProgressBar.ProgressBarcompletes100Percent(ProgressBar.java:72)
-at tests.ProgressBarTest.testFor100PercentCompletion(ProgressBarTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFor100PercentCompletion -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:58:02 IST" name="teardown" finished-at="2024-05-16T15:58:02 IST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:58:02 IST" name="startUp" finished-at="2024-05-16T15:58:09 IST" duration-ms="6400" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[progress-bar/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="testForProgressBarButton()[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:58:09 IST" name="testForProgressBarButton" description="test to verify ProgressBar Start Download Button working" finished-at="2024-05-16T15:58:19 IST" duration-ms="10391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForProgressBarButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:58:19 IST" name="teardown" finished-at="2024-05-16T15:58:19 IST" duration-ms="393" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.ProgressBarTest@5f049ea1]" started-at="2024-05-16T15:58:19 IST" name="tearEnd" finished-at="2024-05-16T15:58:19 IST" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearEnd -->
-      </class> <!-- tests.ProgressBarTest -->
-    </test> <!-- ProgressBar -->
-    <test started-at="2024-05-16T15:58:20 IST" name="Sliders" finished-at="2024-05-16T15:58:36 IST" duration-ms="16728">
+    <test started-at="2024-05-16T16:25:38 IST" name="Sliders" finished-at="2024-05-16T16:25:54 IST" duration-ms="16651">
       <class name="tests.SliderTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SliderTest@5b218417]" started-at="2024-05-16T15:58:20 IST" name="beforeTest" finished-at="2024-05-16T15:58:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:38 IST" name="beforeTest" finished-at="2024-05-16T16:25:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SliderTest@5b218417]" started-at="2024-05-16T15:58:20 IST" name="startUp" finished-at="2024-05-16T15:58:26 IST" duration-ms="6163" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:38 IST" name="startUp" finished-at="2024-05-16T16:25:44 IST" duration-ms="6057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,27 +53,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="VerifyingSlidersAreWorking()[pri:0, instance:tests.SliderTest@5b218417]" started-at="2024-05-16T15:58:26 IST" name="VerifyingSlidersAreWorking" description="Verifying Sliders Are Working" finished-at="2024-05-16T15:58:36 IST" duration-ms="10112" status="PASS">
+        <test-method signature="VerifyingSlidersAreWorking()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:44 IST" name="VerifyingSlidersAreWorking" description="Verifying Sliders Are Working" finished-at="2024-05-16T16:25:54 IST" duration-ms="10136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyingSlidersAreWorking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SliderTest@5b218417]" started-at="2024-05-16T15:58:36 IST" name="teardown" finished-at="2024-05-16T15:58:36 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:54 IST" name="teardown" finished-at="2024-05-16T16:25:54 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SliderTest@5b218417]" started-at="2024-05-16T15:58:36 IST" name="tearEnd" finished-at="2024-05-16T15:58:36 IST" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:54 IST" name="tearEnd" finished-at="2024-05-16T16:25:54 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.SliderTest -->
     </test> <!-- Sliders -->
-    <test started-at="2024-05-16T15:58:36 IST" name="Frames_Windows" finished-at="2024-05-16T15:58:53 IST" duration-ms="16474">
+    <test started-at="2024-05-16T16:25:54 IST" name="Frames_Windows" finished-at="2024-05-16T16:26:13 IST" duration-ms="18519">
       <class name="tests.TabsAndWindowsTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TabsAndWindowsTest@1a75e76a]" started-at="2024-05-16T15:58:36 IST" name="beforeTest" finished-at="2024-05-16T15:58:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:25:54 IST" name="beforeTest" finished-at="2024-05-16T16:25:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.TabsAndWindowsTest@1a75e76a]" started-at="2024-05-16T15:58:36 IST" name="startUp" finished-at="2024-05-16T15:58:39 IST" duration-ms="2717" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:25:54 IST" name="startUp" finished-at="2024-05-16T16:25:59 IST" duration-ms="4796" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -385,27 +84,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="testToSwitchToOtherTab()[pri:0, instance:tests.TabsAndWindowsTest@1a75e76a]" started-at="2024-05-16T15:58:39 IST" name="testToSwitchToOtherTab" description="Test To Verify That After Clicking Button It Changes the Tab" finished-at="2024-05-16T15:58:52 IST" duration-ms="13068" status="PASS">
+        <test-method signature="testToSwitchToOtherTab()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:25:59 IST" name="testToSwitchToOtherTab" description="Test To Verify That After Clicking Button It Changes the Tab" finished-at="2024-05-16T16:26:12 IST" duration-ms="13068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToSwitchToOtherTab -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsAndWindowsTest@1a75e76a]" started-at="2024-05-16T15:58:52 IST" name="teardown" finished-at="2024-05-16T15:58:53 IST" duration-ms="603" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:26:12 IST" name="teardown" finished-at="2024-05-16T16:26:13 IST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.TabsAndWindowsTest@1a75e76a]" started-at="2024-05-16T15:58:53 IST" name="tearEnd" finished-at="2024-05-16T15:58:53 IST" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:26:13 IST" name="tearEnd" finished-at="2024-05-16T16:26:13 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.TabsAndWindowsTest -->
     </test> <!-- Frames_Windows -->
-    <test started-at="2024-05-16T15:58:53 IST" name="Tooltip" finished-at="2024-05-16T15:59:10 IST" duration-ms="16864">
+    <test started-at="2024-05-16T16:26:13 IST" name="Tooltip" finished-at="2024-05-16T16:26:31 IST" duration-ms="18435">
       <class name="tests.ToolTipTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.ToolTipTest@2767e23c]" started-at="2024-05-16T15:58:53 IST" name="beforeTest" finished-at="2024-05-16T15:58:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:13 IST" name="beforeTest" finished-at="2024-05-16T16:26:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.ToolTipTest@2767e23c]" started-at="2024-05-16T15:58:53 IST" name="startUp" finished-at="2024-05-16T15:58:58 IST" duration-ms="5673" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:13 IST" name="startUp" finished-at="2024-05-16T16:26:20 IST" duration-ms="7266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -416,126 +115,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="testToVerifyTooltipFunctionality()[pri:0, instance:tests.ToolTipTest@2767e23c]" started-at="2024-05-16T15:58:58 IST" name="testToVerifyTooltipFunctionality" description="test to verify whether the tooltip works fine" finished-at="2024-05-16T15:59:09 IST" duration-ms="10555" status="PASS">
+        <test-method signature="testToVerifyTooltipFunctionality()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:20 IST" name="testToVerifyTooltipFunctionality" description="test to verify whether the tooltip works fine" finished-at="2024-05-16T16:26:31 IST" duration-ms="10629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyTooltipFunctionality -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ToolTipTest@2767e23c]" started-at="2024-05-16T15:59:09 IST" name="teardown" finished-at="2024-05-16T15:59:09 IST" duration-ms="519" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:31 IST" name="teardown" finished-at="2024-05-16T16:26:31 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.ToolTipTest@2767e23c]" started-at="2024-05-16T15:59:09 IST" name="tearEnd" finished-at="2024-05-16T15:59:10 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:31 IST" name="tearEnd" finished-at="2024-05-16T16:26:31 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.ToolTipTest -->
     </test> <!-- Tooltip -->
-    <test started-at="2024-05-16T15:59:10 IST" name="MultipleElements" finished-at="2024-05-16T15:59:29 IST" duration-ms="19161">
-      <class name="tests.SelectElementsTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SelectElementsTest@7ce69770]" started-at="2024-05-16T15:59:10 IST" name="beforeTest" finished-at="2024-05-16T15:59:10 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SelectElementsTest@7ce69770]" started-at="2024-05-16T15:59:10 IST" name="startUp" finished-at="2024-05-16T15:59:17 IST" duration-ms="7270" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[select-elements/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="toVerifyMultipleSelect()[pri:0, instance:tests.SelectElementsTest@7ce69770]" started-at="2024-05-16T15:59:17 IST" name="toVerifyMultipleSelect" description=" To Verify that it can select Multiple Element " finished-at="2024-05-16T15:59:27 IST" duration-ms="10444" status="FAIL">
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[move target out of bounds
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0b10c48623998e858ea06d97847a0206, actions {actions=[org.openqa.selenium.interactions.Sequence@684e8c9d, org.openqa.selenium.interactions.Sequence@6ecc02bb]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55253/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b10c48623998e858ea06d97847a0206]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome=124.0.6367.208)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0b10c48623998e858ea06d97847a0206, actions {actions=[org.openqa.selenium.interactions.Sequence@684e8c9d, org.openqa.selenium.interactions.Sequence@6ecc02bb]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55253}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55253/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b10c48623998e858ea06d97847a0206
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
-at pageEvent.SelectElements.toSelectMutiEelement(SelectElements.java:58)
-at tests.SelectElementsTest.toVerifyMultipleSelect(SelectElementsTest.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toVerifyMultipleSelect -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SelectElementsTest@7ce69770]" started-at="2024-05-16T15:59:27 IST" name="teardown" finished-at="2024-05-16T15:59:29 IST" duration-ms="1378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SelectElementsTest@7ce69770]" started-at="2024-05-16T15:59:29 IST" name="tearEnd" finished-at="2024-05-16T15:59:29 IST" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearEnd -->
-      </class> <!-- tests.SelectElementsTest -->
-    </test> <!-- MultipleElements -->
-    <test started-at="2024-05-16T15:59:29 IST" name="Spinner" finished-at="2024-05-16T15:59:47 IST" duration-ms="18425">
+    <test started-at="2024-05-16T16:26:31 IST" name="Spinner" finished-at="2024-05-16T16:26:50 IST" duration-ms="19049">
       <class name="tests.SpinnerTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SpinnerTest@5890e879]" started-at="2024-05-16T15:59:29 IST" name="beforeTest" finished-at="2024-05-16T15:59:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:31 IST" name="beforeTest" finished-at="2024-05-16T16:26:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SpinnerTest@5890e879]" started-at="2024-05-16T15:59:29 IST" name="startUp" finished-at="2024-05-16T15:59:36 IST" duration-ms="7157" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:31 IST" name="startUp" finished-at="2024-05-16T16:26:39 IST" duration-ms="7723" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -546,27 +146,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="ToVerifySpinner()[pri:0, instance:tests.SpinnerTest@5890e879]" started-at="2024-05-16T15:59:36 IST" name="ToVerifySpinner" description="To verify wether Spinner works as expected" finished-at="2024-05-16T15:59:47 IST" duration-ms="11215" status="PASS">
+        <test-method signature="ToVerifySpinner()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:39 IST" name="ToVerifySpinner" description="To verify wether Spinner works as expected" finished-at="2024-05-16T16:26:50 IST" duration-ms="11258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToVerifySpinner -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SpinnerTest@5890e879]" started-at="2024-05-16T15:59:47 IST" name="teardown" finished-at="2024-05-16T15:59:47 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SpinnerTest@5890e879]" started-at="2024-05-16T15:59:47 IST" name="tearEnd" finished-at="2024-05-16T15:59:47 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:50 IST" name="tearEnd" finished-at="2024-05-16T16:26:50 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:50 IST" name="teardown" finished-at="2024-05-16T16:26:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- tests.SpinnerTest -->
     </test> <!-- Spinner -->
-    <test started-at="2024-05-16T15:59:47 IST" name="Sorting" finished-at="2024-05-16T16:00:03 IST" duration-ms="16214">
+    <test started-at="2024-05-16T16:26:50 IST" name="Sorting" finished-at="2024-05-16T16:27:08 IST" duration-ms="17365">
       <class name="tests.SortableTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SortableTest@221a3fa4]" started-at="2024-05-16T15:59:47 IST" name="beforeTest" finished-at="2024-05-16T15:59:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:26:50 IST" name="beforeTest" finished-at="2024-05-16T16:26:50 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SortableTest@221a3fa4]" started-at="2024-05-16T15:59:47 IST" name="startUp" finished-at="2024-05-16T15:59:52 IST" duration-ms="5093" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:26:50 IST" name="startUp" finished-at="2024-05-16T16:26:57 IST" duration-ms="6446" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -577,15 +177,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="ToTestShoppingAndFeedsPositions()[pri:0, instance:tests.SortableTest@221a3fa4]" started-at="2024-05-16T15:59:52 IST" name="ToTestShoppingAndFeedsPositions" description="To verfiy if interchange of feed&#039;s And Shopping&#039;s position is possible " finished-at="2024-05-16T16:00:03 IST" duration-ms="10518" status="PASS">
+        <test-method signature="ToTestShoppingAndFeedsPositions()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:26:57 IST" name="ToTestShoppingAndFeedsPositions" description="To verfiy if interchange of feed&#039;s And Shopping&#039;s position is possible " finished-at="2024-05-16T16:27:07 IST" duration-ms="10508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToTestShoppingAndFeedsPositions -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SortableTest@221a3fa4]" started-at="2024-05-16T16:00:03 IST" name="teardown" finished-at="2024-05-16T16:00:03 IST" duration-ms="464" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:27:07 IST" name="teardown" finished-at="2024-05-16T16:27:08 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SortableTest@221a3fa4]" started-at="2024-05-16T16:00:03 IST" name="tearEnd" finished-at="2024-05-16T16:00:03 IST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:27:08 IST" name="tearEnd" finished-at="2024-05-16T16:27:08 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->

@@ -30,7 +30,7 @@ public class DropDown implements SecondStep{
 	
 	public void testForDropdown() throws InterruptedException
     {
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 //	    wait.until(ExpectedConditions.visibilityOf(drop));
         Select sel = new Select(drop);
         sel.selectByVisibleText("Falkland Islands (Malvinas)");

@@ -6,14 +6,14 @@
     <classes>
       <class name="tests.DialogBoxTest"/>
     </classes>
-  </test> <!-- Test --> -->
+  </test>  -->
 
   <!--<test thread-count="2" name="Accordions">
     <parameter name="endpoint" value="accordion-and-tabs/" />
     <classes>
       <class name="tests.AccordionTests"/>
     </classes>
-  </test> <!-- Test --> -->
+  </test>   -->
   
   <test thread-count="2" name="Dropdown">
     <parameter name="endpoint" value="select-dropdown-menu/" />

@@ -180,100 +180,6 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.SelectElementsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="toVerifyMultipleSelect">
-                  </a> <!-- toVerifyMultipleSelect -->
-                  <span class="method-name">toVerifyMultipleSelect</span>
-                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome-headless-shell=124.0.6367.208)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed8e1b720cc969ffc703b12b253e27c6, actions {actions=[org.openqa.selenium.interactions.Sequence@1163a27, org.openqa.selenium.interactions.Sequence@322ba549]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51934/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed8e1b720cc969ffc703b12b253e27c6
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
-	at pageEvent.SelectElements.toSelectMutiEelement(SelectElements.java:57)
-	at tests.SelectElementsTest.toVerifyMultipleSelect(SelectElementsTest.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-( To Verify that it can select Multiple Element )                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.AccordionTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyThatAccordionsAreWorking">
-                  </a> <!-- verifyThatAccordionsAreWorking -->
-                  <span class="method-name">verifyThatAccordionsAreWorking</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: .demo-frame.lazyloaded&apos; (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at pageEvent.AccordionsAndTabs.switchToAframe(AccordionsAndTabs.java:40)
-	at pageEvent.AccordionsAndTabs.accordionsIsWorking(AccordionsAndTabs.java:46)
-	at tests.AccordionTests.verifyThatAccordionsAreWorking(AccordionTests.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.demo-frame.lazyloaded&quot;}
-  (Session info: chrome-headless-shell=124.0.6367.208)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9a2d3b1b220aeb4978237d492f25852d, findElement {using=css selector, value=.demo-frame.lazyloaded}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51612}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51612/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9a2d3b1b220aeb4978237d492f25852d
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 31 more
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(To verify That Accordions Are Working)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">tests.ProgressBarTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -310,9 +216,9 @@ Session ID: 9a2d3b1b220aeb4978237d492f25852d
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e63a7cd79290b3d859ac5eab3cc4cba4, findElement {using=css selector, value=//*[@id=&quot;create-user&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51568/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e63a7cd79290b3d859ac5eab3cc4cba4
+Command: [62905acb4f94efea3390d4b3b2366f05, findElement {value=//*[@id=&quot;create-user&quot;], using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52510/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62905acb4f94efea3390d4b3b2366f05
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -326,7 +232,7 @@ Session ID: e63a7cd79290b3d859ac5eab3cc4cba4
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
 	at pageEvent.DialogBox.enterIntoDialogBox(DialogBox.java:53)
 	at tests.DialogBoxTest.ToEnterdialogBox(DialogBoxTest.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -338,36 +244,113 @@ Session ID: e63a7cd79290b3d859ac5eab3cc4cba4
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.TabsAndWindowsTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.AccordionTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testToSwitchToOtherTab">
-                  </a> <!-- testToSwitchToOtherTab -->
-                  <span class="method-name">testToSwitchToOtherTab</span>
+                  <a name="verifyThatAccordionsAreWorking">
+                  </a> <!-- verifyThatAccordionsAreWorking -->
+                  <span class="method-name">verifyThatAccordionsAreWorking</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: .demo-frame.lazyloaded&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageEvent.AccordionsAndTabs.switchToAframe(AccordionsAndTabs.java:40)
+	at pageEvent.AccordionsAndTabs.accordionsIsWorking(AccordionsAndTabs.java:46)
+	at tests.AccordionTests.verifyThatAccordionsAreWorking(AccordionTests.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.demo-frame.lazyloaded&quot;}
+  (Session info: chrome-headless-shell=124.0.6367.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80787a5dd706315434a185c70c3cdad6, findElement {value=.demo-frame.lazyloaded, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52563}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52563/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80787a5dd706315434a185c70c3cdad6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 31 more
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(Test To Verify That After Clicking Button It Changes the Tab)                  </em>
+(To verify That Accordions Are Working)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.SortableTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.SelectElementsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ToTestShoppingAndFeedsPositions">
-                  </a> <!-- ToTestShoppingAndFeedsPositions -->
-                  <span class="method-name">ToTestShoppingAndFeedsPositions</span>
+                  <a name="toVerifyMultipleSelect">
+                  </a> <!-- toVerifyMultipleSelect -->
+                  <span class="method-name">toVerifyMultipleSelect</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome-headless-shell=124.0.6367.208)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f53be937153f7664a4413895ceb4ea86, actions {actions=[org.openqa.selenium.interactions.Sequence@7e8279e5, org.openqa.selenium.interactions.Sequence@2b53840a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52934}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52934/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f53be937153f7664a4413895ceb4ea86
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+	at pageEvent.SelectElements.toSelectMutiEelement(SelectElements.java:57)
+	at tests.SelectElementsTest.toVerifyMultipleSelect(SelectElementsTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                   <em>
-(To verfiy if interchange of feed's And Shopping's position is possible )                  </em>
+( To Verify that it can select Multiple Element )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProgressBarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForProgressBarButton">
+                  </a> <!-- testForProgressBarButton -->
+                  <span class="method-name">testForProgressBarButton</span>
+                  <em>
+(test to verify ProgressBar Start Download Button working)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -409,23 +392,6 @@ Session ID: e63a7cd79290b3d859ac5eab3cc4cba4
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.ProgressBarTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testForProgressBarButton">
-                  </a> <!-- testForProgressBarButton -->
-                  <span class="method-name">testForProgressBarButton</span>
-                  <em>
-(test to verify ProgressBar Start Download Button working)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">tests.DropDownTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -436,6 +402,40 @@ Session ID: e63a7cd79290b3d859ac5eab3cc4cba4
                   <span class="method-name">testForDropDowselection</span>
                   <em>
 (Test for Validation of DropDown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TabsAndWindowsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToSwitchToOtherTab">
+                  </a> <!-- testToSwitchToOtherTab -->
+                  <span class="method-name">testToSwitchToOtherTab</span>
+                  <em>
+(Test To Verify That After Clicking Button It Changes the Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SortableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToTestShoppingAndFeedsPositions">
+                  </a> <!-- ToTestShoppingAndFeedsPositions -->
+                  <span class="method-name">ToTestShoppingAndFeedsPositions</span>
+                  <em>
+(To verfiy if interchange of feed's And Shopping's position is possible )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -469,70 +469,60 @@ Session ID: e63a7cd79290b3d859ac5eab3cc4cba4
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;DialogBox&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;dialog-boxes/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.DialogBoxTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- DialogBox --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Accordions&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;accordion-and-tabs/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.AccordionTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Accordions --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Dropdown&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;select-dropdown-menu/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.DropDownTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Dropdown --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;ProgressBar&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;progress-bar/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.ProgressBarTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ProgressBar --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Sliders&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;sliders/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.SliderTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Sliders --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Frames_Windows&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;frames-and-windows/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.TabsAndWindowsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Frames_Windows --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Tooltip&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;tooltip/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.ToolTipTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Tooltip --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;MultipleElements&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;select-elements/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.SelectElementsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- MultipleElements --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Spinner&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;spinner/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.SpinnerTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Spinner --&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Sorting&quot;&gt;
     &lt;parameter name=&quot;endpoint&quot; value=&quot;sorting/&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.SortableTest&quot;/&gt;
     &lt;/classes&gt;
@@ -605,47 +595,47 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFor100PercentCompletion')
 data.setCell(0, 2, 'tests.ProgressBarTest')
-data.setCell(0, 3, 30924);
+data.setCell(0, 3, 30888);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyThatAccordionsAreWorking')
 data.setCell(1, 2, 'tests.AccordionTests')
-data.setCell(1, 3, 30236);
+data.setCell(1, 3, 30338);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testToSwitchToOtherTab')
 data.setCell(2, 2, 'tests.TabsAndWindowsTest')
-data.setCell(2, 3, 2763);
+data.setCell(2, 3, 2478);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'ToVerifySpinner')
 data.setCell(3, 2, 'tests.SpinnerTest')
-data.setCell(3, 3, 2269);
+data.setCell(3, 3, 1863);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testForDropDowselection')
 data.setCell(4, 2, 'tests.DropDownTest')
-data.setCell(4, 3, 1595);
+data.setCell(4, 3, 1621);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testForProgressBarButton')
-data.setCell(5, 2, 'tests.ProgressBarTest')
-data.setCell(5, 3, 977);
+data.setCell(5, 1, 'ToTestShoppingAndFeedsPositions')
+data.setCell(5, 2, 'tests.SortableTest')
+data.setCell(5, 3, 1376);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testToVerifyTooltipFunctionality')
 data.setCell(6, 2, 'tests.ToolTipTest')
-data.setCell(6, 3, 694);
+data.setCell(6, 3, 566);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ToTestShoppingAndFeedsPositions')
-data.setCell(7, 2, 'tests.SortableTest')
-data.setCell(7, 3, 627);
+data.setCell(7, 1, 'testForProgressBarButton')
+data.setCell(7, 2, 'tests.ProgressBarTest')
+data.setCell(7, 3, 504);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'toVerifyMultipleSelect')
 data.setCell(8, 2, 'tests.SelectElementsTest')
-data.setCell(8, 3, 616);
+data.setCell(8, 3, 449);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'ToEnterdialogBox')
 data.setCell(9, 2, 'tests.DialogBoxTest')
-data.setCell(9, 3, 360);
+data.setCell(9, 3, 252);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'VerifyingSlidersAreWorking')
 data.setCell(10, 2, 'tests.SliderTest')
-data.setCell(10, 3, 169);
+data.setCell(10, 3, 140);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -677,129 +667,253 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DialogBoxTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, dialog-boxes/)</span>
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(dialog-boxes/)</span>
+                <span class="method-start">1014 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">ToEnterdialogBox</span>
-                <span class="method-start">6653 ms</span>
+                <span class="method-start">11712 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">11977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">12271 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.AccordionTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">12990 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, accordion-and-tabs/)</span>
-                <span class="method-start">7095 ms</span>
+                <span class="method-name">startUp(accordion-and-tabs/)</span>
+                <span class="method-start">12993 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyThatAccordionsAreWorking</span>
-                <span class="method-start">12033 ms</span>
+                <span class="method-start">18290 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">48638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">48765 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DropDownTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">48882 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, select-dropdown-menu/)</span>
-                <span class="method-start">42312 ms</span>
+                <span class="method-name">startUp(select-dropdown-menu/)</span>
+                <span class="method-start">48885 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForDropDowselection</span>
-                <span class="method-start">47210 ms</span>
+                <span class="method-start">54034 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">55656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">55772 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ProgressBarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">55865 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, progress-bar/)</span>
-                <span class="method-start">48818 ms</span>
+                <span class="method-name">startUp(progress-bar/)</span>
+                <span class="method-start">55868 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFor100PercentCompletion</span>
-                <span class="method-start">53197 ms</span>
+                <span class="method-start">60516 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">91412 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, progress-bar/)</span>
-                <span class="method-start">84133 ms</span>
+                <span class="method-name">startUp(progress-bar/)</span>
+                <span class="method-start">91564 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForProgressBarButton</span>
-                <span class="method-start">88387 ms</span>
+                <span class="method-start">96596 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">97101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">97209 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SliderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">97311 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, sliders/)</span>
-                <span class="method-start">89389 ms</span>
+                <span class="method-name">startUp(sliders/)</span>
+                <span class="method-start">97315 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyingSlidersAreWorking</span>
-                <span class="method-start">94456 ms</span>
+                <span class="method-start">102393 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">102536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">102665 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TabsAndWindowsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">102750 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, frames-and-windows/)</span>
-                <span class="method-start">94651 ms</span>
+                <span class="method-name">startUp(frames-and-windows/)</span>
+                <span class="method-start">102753 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testToSwitchToOtherTab</span>
-                <span class="method-start">99687 ms</span>
+                <span class="method-start">106822 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">109301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">109443 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ToolTipTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">109553 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, tooltip/)</span>
-                <span class="method-start">102471 ms</span>
+                <span class="method-name">startUp(tooltip/)</span>
+                <span class="method-start">109555 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testToVerifyTooltipFunctionality</span>
-                <span class="method-start">108770 ms</span>
+                <span class="method-start">114834 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">115402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">115510 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SelectElementsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">115576 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, select-elements/)</span>
-                <span class="method-start">109483 ms</span>
+                <span class="method-name">startUp(select-elements/)</span>
+                <span class="method-start">115578 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">toVerifyMultipleSelect</span>
-                <span class="method-start">116158 ms</span>
+                <span class="method-start">120119 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">120570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">120674 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SpinnerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">120749 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, spinner/)</span>
-                <span class="method-start">116804 ms</span>
+                <span class="method-name">startUp(spinner/)</span>
+                <span class="method-start">120751 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ToVerifySpinner</span>
-                <span class="method-start">122718 ms</span>
+                <span class="method-start">125887 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">127751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">127752 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SortableTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">127808 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">setUpMethod(chrome, sorting/)</span>
-                <span class="method-start">125001 ms</span>
+                <span class="method-name">startUp(sorting/)</span>
+                <span class="method-start">127810 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ToTestShoppingAndFeedsPositions</span>
-                <span class="method-start">129734 ms</span>
+                <span class="method-start">131732 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">133111 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearEnd</span>
+                <span class="method-start">133214 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

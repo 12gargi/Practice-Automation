@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="2" name="DialogBox">
-    <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="dialog-boxes/" />
     <classes>
       <class name="tests.DialogBoxTest"/>
@@ -10,7 +9,6 @@
   </test> <!-- Test -->
 
   <test thread-count="2" name="Accordions">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="accordion-and-tabs/" />
     <classes>
       <class name="tests.AccordionTests"/>
@@ -18,7 +16,6 @@
   </test> <!-- Test -->
   
   <test thread-count="2" name="Dropdown">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="select-dropdown-menu/" />
     <classes>
       <class name="tests.DropDownTest"/>
@@ -26,7 +23,6 @@
   </test>
   
     <test thread-count="2" name="ProgressBar">
-    <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="progress-bar/" />
     <classes>
       <class name="tests.ProgressBarTest"/>
@@ -34,7 +30,6 @@
   </test>
   
   <test thread-count="2" name="Sliders">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="sliders/" />
     <classes>
       <class name="tests.SliderTest"/>
@@ -42,7 +37,6 @@
   </test>
   
   <test thread-count="2" name="Frames_Windows">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="frames-and-windows/" />
     <classes>
       <class name="tests.TabsAndWindowsTest"/>
@@ -50,7 +44,6 @@
   </test>
   
   <test thread-count="2" name="Tooltip">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="tooltip/" />
     <classes>
       <class name="tests.ToolTipTest"/>
@@ -58,7 +51,6 @@
   </test>
   
   <test thread-count="2" name="MultipleElements">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="select-elements/" />
     <classes>
       <class name="tests.SelectElementsTest"/>
@@ -66,7 +58,6 @@
   </test>
   
   <test thread-count="2" name="Spinner">
-  <parameter name="browser" value="chrome" />
     <parameter name="endpoint" value="spinner/" />
     <classes>
       <class name="tests.SpinnerTest"/>
@@ -74,8 +65,7 @@
   </test>
   
    <test thread-count="2" name="Sorting">
-   <parameter name="browser" value="chrome" />
-    <parameter name="endpoint" value="sorting/" />
+       <parameter name="endpoint" value="sorting/" />
     <classes>
       <class name="tests.SortableTest"/>
     </classes>
@@ -85,6 +75,6 @@
   
   
 
-  <!-- Repeat similar blocks for other test classes -->
+  
   
 </suite> <!-- Suite -->

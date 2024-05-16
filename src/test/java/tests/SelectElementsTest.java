@@ -10,7 +10,7 @@ public class SelectElementsTest  extends BaseTest{
 	SelectElements select ;
 	
 	@Test(description = " To Verify that it can select Multiple Element ")
-	public void toVerifyMultipleSelect()
+	public void toVerifyMultipleSelect() throws InterruptedException
 	{
 		select = new SelectElements(driver);
 		select.toSelectMutiEelement();

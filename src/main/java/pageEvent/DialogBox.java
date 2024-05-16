@@ -46,9 +46,10 @@ public class DialogBox implements FirstStep {
 	    PageFactory.initElements(driver, this);
 	}
 	
-	public void enterIntoDialogBox()
+	public void enterIntoDialogBox() throws InterruptedException
 	{
-		wait.until(ExpectedConditions.visibilityOf(iframe));
+//		wait.until(ExpectedConditions.visibilityOf(iframe));
+		Thread.sleep(10000);
 		driver.switchTo().frame(iframe);
 		box.click();
 		wait.until(ExpectedConditions.visibilityOf(cont));

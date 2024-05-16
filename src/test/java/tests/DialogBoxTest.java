@@ -10,7 +10,7 @@ public class DialogBoxTest extends BaseTest {
 	DialogBox box;
 
 	 @Test(description = "test to verify modal dialog box")
-	 public void ToEnterdialogBox()
+	 public void ToEnterdialogBox() throws InterruptedException
 	 {
 		 //startUp(Routes.dialogbox);
 		 box =new DialogBox(driver);

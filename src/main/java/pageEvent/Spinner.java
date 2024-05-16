@@ -40,9 +40,10 @@ public class Spinner implements ThirdStep{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void toVerifySpinner()
+	public void toVerifySpinner() throws InterruptedException
 	{
-		wait.until(ExpectedConditions.visibilityOf(iframe));
+//		wait.until(ExpectedConditions.visibilityOf(iframe));
+		Thread.sleep(10000);
        driver.switchTo().frame(iframe);
 		
         for (int i = 0; i < 3; i++) {

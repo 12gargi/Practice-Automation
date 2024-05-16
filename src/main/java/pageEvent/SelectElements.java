@@ -42,9 +42,10 @@ public class SelectElements implements SecondStep {
 		
 	}
 	
-	public void toSelectMutiEelement()
+	public void toSelectMutiEelement() throws InterruptedException
 	{
-		 wait.until(ExpectedConditions.visibilityOf(iframe));
+//		 wait.until(ExpectedConditions.visibilityOf(iframe));
+		Thread.sleep(10000);
 		driver.switchTo().frame(iframe);
 		
 		Actions act   =new Actions(driver);

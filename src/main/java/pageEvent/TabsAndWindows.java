@@ -27,10 +27,11 @@ public class TabsAndWindows implements SecondStep{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void switchToAnotherTab()
+	public void switchToAnotherTab() throws InterruptedException
 	{
         String currentWindowHandle = driver.getWindowHandle(); 
-        wait.until(ExpectedConditions.visibilityOf(button));
+//        wait.until(ExpectedConditions.visibilityOf(button));
+        Thread.sleep(10000);
         button.click(); 
         for (String windowHandle : driver.getWindowHandles()) {
             if (!windowHandle.equals(currentWindowHandle)) {

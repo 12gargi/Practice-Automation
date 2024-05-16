@@ -11,7 +11,7 @@ public class ToolTipTest extends BaseTest {
 	Tooltip tooltip ;
 	
 	@Test(description = "test to verify whether the tooltip works fine")
-	public void testToVerifyTooltipFunctionality()
+	public void testToVerifyTooltipFunctionality() throws InterruptedException
 	{
 		//startUp(Routes.tooltip);
 		tooltip = new Tooltip(driver);

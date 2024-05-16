@@ -28,9 +28,10 @@ public class DropDown implements SecondStep{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void testForDropdown()
+	public void testForDropdown() throws InterruptedException
     {
-	    wait.until(ExpectedConditions.visibilityOf(drop));
+		Thread.sleep(10000);
+//	    wait.until(ExpectedConditions.visibilityOf(drop));
         Select sel = new Select(drop);
         sel.selectByVisibleText("Falkland Islands (Malvinas)");
      

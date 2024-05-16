@@ -12,7 +12,7 @@ public class TabsAndWindowsTest extends BaseTest {
 	TabsAndWindows tabsAndwindows;
 	
 	@Test(description = "Test To Verify That After Clicking Button It Changes the Tab")
-	public void testToSwitchToOtherTab()
+	public void testToSwitchToOtherTab() throws InterruptedException
 	{
 		//startUp(Routes.framesAndWindows);
 		tabsAndwindows = new TabsAndWindows(driver);

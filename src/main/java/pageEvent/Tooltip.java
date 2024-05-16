@@ -32,10 +32,11 @@ public class Tooltip implements FirstStep {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void testForToolTip()
+	public void testForToolTip() throws InterruptedException
 	{
          //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
-         wait.until(ExpectedConditions.visibilityOf(Frametool));
+//         wait.until(ExpectedConditions.visibilityOf(Frametool));
+		Thread.sleep(10000);
          driver.switchTo().frame(Frametool);
 		 wait.until(ExpectedConditions.visibilityOf(text));
 

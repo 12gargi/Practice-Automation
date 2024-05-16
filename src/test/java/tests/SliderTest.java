@@ -12,7 +12,7 @@ public class SliderTest extends BaseTest {
 	
 	
 	@Test(description = "Verifying Sliders Are Working")
-	public void VerifyingSlidersAreWorking()
+	public void VerifyingSlidersAreWorking() throws InterruptedException
 	{
 //		startUp(Routes.slider);
 		slider =new Slider(driver);

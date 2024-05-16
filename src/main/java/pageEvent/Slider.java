@@ -33,9 +33,10 @@ public class Slider implements FirstStep {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void SliderCanSlide() {
+	public void SliderCanSlide() throws InterruptedException {
 		
-		wait.until(ExpectedConditions.visibilityOf(frame));
+//		wait.until(ExpectedConditions.visibilityOf(frame));
+		Thread.sleep(10000);
         driver.switchTo().frame(frame);
 		String sliderPosition = red.getAttribute("style");
 		if (sliderPosition.contains("left: 100%")) {

@@ -10,7 +10,7 @@ public class SpinnerTest extends BaseTest{
 	Spinner spin ;
 	
 	@Test(description = "To verify wether Spinner works as expected")
-	public void ToVerifySpinner()
+	public void ToVerifySpinner() throws InterruptedException
 	{
 		spin = new Spinner(driver);
 		spin.toVerifySpinner();

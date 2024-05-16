@@ -11,7 +11,7 @@ public class DropDownTest extends BaseTest {
     DropDown dropdown;
     
     @Test(description = "Test for Validation of DropDown")
-    public void testForDropDowselection() {
+    public void testForDropDowselection() throws InterruptedException {
         
        // startUp(Routes.DropDown);
         

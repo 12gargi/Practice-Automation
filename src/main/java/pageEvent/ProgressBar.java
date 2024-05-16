@@ -43,7 +43,8 @@ public class ProgressBar implements FirstStep{
     
     public void ProgressBarButtonVerification(WebDriver driver) throws InterruptedException {
     	
-    	wait.until(ExpectedConditions.visibilityOf(iframe));
+//    	wait.until(ExpectedConditions.visibilityOf(iframe));
+    	Thread.sleep(10000);
     	driver.switchTo().frame(iframe);
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
     	btn.click();
@@ -53,7 +54,8 @@ public class ProgressBar implements FirstStep{
     
     public void ProgressBarcompletes100Percent() {
         try {
-        	wait.until(ExpectedConditions.visibilityOf(iframe));
+//        	wait.until(ExpectedConditions.visibilityOf(iframe));
+        	Thread.sleep(10000);
 
             driver.switchTo().frame(iframe);
 

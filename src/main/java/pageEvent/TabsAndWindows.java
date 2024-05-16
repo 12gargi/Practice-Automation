@@ -31,7 +31,7 @@ public class TabsAndWindows implements SecondStep{
 	{
         String currentWindowHandle = driver.getWindowHandle(); 
 //        wait.until(ExpectedConditions.visibilityOf(button));
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         button.click(); 
         for (String windowHandle : driver.getWindowHandles()) {
             if (!windowHandle.equals(currentWindowHandle)) {

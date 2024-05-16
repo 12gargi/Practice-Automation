@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-16T16:25:17 IST" name="Suite" finished-at="2024-05-16T16:27:08 IST" duration-ms="110552">
+  <suite started-at="2024-05-16T16:37:08 IST" name="Suite" finished-at="2024-05-16T16:37:56 IST" duration-ms="48045">
     <groups>
     </groups>
-    <test started-at="2024-05-16T16:25:17 IST" name="Dropdown" finished-at="2024-05-16T16:25:38 IST" duration-ms="20437">
+    <test started-at="2024-05-16T16:37:08 IST" name="Dropdown" finished-at="2024-05-16T16:37:18 IST" duration-ms="9822">
       <class name="tests.DropDownTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:17 IST" name="beforeTest" finished-at="2024-05-16T16:25:18 IST" duration-ms="730" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:37:08 IST" name="beforeTest" finished-at="2024-05-16T16:37:08 IST" duration-ms="529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:18 IST" name="startUp" finished-at="2024-05-16T16:25:25 IST" duration-ms="7338" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:37:08 IST" name="startUp" finished-at="2024-05-16T16:37:14 IST" duration-ms="5360" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,27 +22,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="testForDropDowselection()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:25 IST" name="testForDropDowselection" description="Test for Validation of DropDown" finished-at="2024-05-16T16:25:37 IST" duration-ms="11383" status="PASS">
+        <test-method signature="testForDropDowselection()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:37:14 IST" name="testForDropDowselection" description="Test for Validation of DropDown" finished-at="2024-05-16T16:37:17 IST" duration-ms="3315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForDropDowselection -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:37 IST" name="teardown" finished-at="2024-05-16T16:25:37 IST" duration-ms="422" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:37:17 IST" name="teardown" finished-at="2024-05-16T16:37:17 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:25:37 IST" name="tearEnd" finished-at="2024-05-16T16:25:38 IST" duration-ms="491" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.DropDownTest@2a7f1f10]" started-at="2024-05-16T16:37:17 IST" name="tearEnd" finished-at="2024-05-16T16:37:18 IST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.DropDownTest -->
     </test> <!-- Dropdown -->
-    <test started-at="2024-05-16T16:25:38 IST" name="Sliders" finished-at="2024-05-16T16:25:54 IST" duration-ms="16651">
+    <test started-at="2024-05-16T16:37:18 IST" name="Sliders" finished-at="2024-05-16T16:37:25 IST" duration-ms="7023">
       <class name="tests.SliderTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:38 IST" name="beforeTest" finished-at="2024-05-16T16:25:38 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:37:18 IST" name="beforeTest" finished-at="2024-05-16T16:37:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:38 IST" name="startUp" finished-at="2024-05-16T16:25:44 IST" duration-ms="6057" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:37:18 IST" name="startUp" finished-at="2024-05-16T16:37:22 IST" duration-ms="4656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,27 +53,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="VerifyingSlidersAreWorking()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:44 IST" name="VerifyingSlidersAreWorking" description="Verifying Sliders Are Working" finished-at="2024-05-16T16:25:54 IST" duration-ms="10136" status="PASS">
+        <test-method signature="VerifyingSlidersAreWorking()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:37:22 IST" name="VerifyingSlidersAreWorking" description="Verifying Sliders Are Working" finished-at="2024-05-16T16:37:25 IST" duration-ms="2128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyingSlidersAreWorking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:54 IST" name="teardown" finished-at="2024-05-16T16:25:54 IST" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:37:25 IST" name="teardown" finished-at="2024-05-16T16:37:25 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:25:54 IST" name="tearEnd" finished-at="2024-05-16T16:25:54 IST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SliderTest@4c60d6e9]" started-at="2024-05-16T16:37:25 IST" name="tearEnd" finished-at="2024-05-16T16:37:25 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.SliderTest -->
     </test> <!-- Sliders -->
-    <test started-at="2024-05-16T16:25:54 IST" name="Frames_Windows" finished-at="2024-05-16T16:26:13 IST" duration-ms="18519">
+    <test started-at="2024-05-16T16:37:25 IST" name="Frames_Windows" finished-at="2024-05-16T16:37:33 IST" duration-ms="7915">
       <class name="tests.TabsAndWindowsTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:25:54 IST" name="beforeTest" finished-at="2024-05-16T16:25:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:37:25 IST" name="beforeTest" finished-at="2024-05-16T16:37:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:25:54 IST" name="startUp" finished-at="2024-05-16T16:25:59 IST" duration-ms="4796" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:37:25 IST" name="startUp" finished-at="2024-05-16T16:37:29 IST" duration-ms="3963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,27 +84,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="testToSwitchToOtherTab()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:25:59 IST" name="testToSwitchToOtherTab" description="Test To Verify That After Clicking Button It Changes the Tab" finished-at="2024-05-16T16:26:12 IST" duration-ms="13068" status="PASS">
+        <test-method signature="testToSwitchToOtherTab()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:37:29 IST" name="testToSwitchToOtherTab" description="Test To Verify That After Clicking Button It Changes the Tab" finished-at="2024-05-16T16:37:33 IST" duration-ms="3753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToSwitchToOtherTab -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:26:12 IST" name="teardown" finished-at="2024-05-16T16:26:13 IST" duration-ms="554" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:37:33 IST" name="teardown" finished-at="2024-05-16T16:37:33 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:26:13 IST" name="tearEnd" finished-at="2024-05-16T16:26:13 IST" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.TabsAndWindowsTest@7f485fda]" started-at="2024-05-16T16:37:33 IST" name="tearEnd" finished-at="2024-05-16T16:37:33 IST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.TabsAndWindowsTest -->
     </test> <!-- Frames_Windows -->
-    <test started-at="2024-05-16T16:26:13 IST" name="Tooltip" finished-at="2024-05-16T16:26:31 IST" duration-ms="18435">
+    <test started-at="2024-05-16T16:37:33 IST" name="Tooltip" finished-at="2024-05-16T16:37:40 IST" duration-ms="7319">
       <class name="tests.ToolTipTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:13 IST" name="beforeTest" finished-at="2024-05-16T16:26:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:37:33 IST" name="beforeTest" finished-at="2024-05-16T16:37:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:13 IST" name="startUp" finished-at="2024-05-16T16:26:20 IST" duration-ms="7266" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:37:33 IST" name="startUp" finished-at="2024-05-16T16:37:37 IST" duration-ms="4614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,27 +115,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="testToVerifyTooltipFunctionality()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:20 IST" name="testToVerifyTooltipFunctionality" description="test to verify whether the tooltip works fine" finished-at="2024-05-16T16:26:31 IST" duration-ms="10629" status="PASS">
+        <test-method signature="testToVerifyTooltipFunctionality()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:37:37 IST" name="testToVerifyTooltipFunctionality" description="test to verify whether the tooltip works fine" finished-at="2024-05-16T16:37:40 IST" duration-ms="2533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyTooltipFunctionality -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:31 IST" name="teardown" finished-at="2024-05-16T16:26:31 IST" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:37:40 IST" name="teardown" finished-at="2024-05-16T16:37:40 IST" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:26:31 IST" name="tearEnd" finished-at="2024-05-16T16:26:31 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.ToolTipTest@3f191845]" started-at="2024-05-16T16:37:40 IST" name="tearEnd" finished-at="2024-05-16T16:37:40 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->
       </class> <!-- tests.ToolTipTest -->
     </test> <!-- Tooltip -->
-    <test started-at="2024-05-16T16:26:31 IST" name="Spinner" finished-at="2024-05-16T16:26:50 IST" duration-ms="19049">
+    <test started-at="2024-05-16T16:37:40 IST" name="Spinner" finished-at="2024-05-16T16:37:49 IST" duration-ms="8488">
       <class name="tests.SpinnerTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:31 IST" name="beforeTest" finished-at="2024-05-16T16:26:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:37:40 IST" name="beforeTest" finished-at="2024-05-16T16:37:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:31 IST" name="startUp" finished-at="2024-05-16T16:26:39 IST" duration-ms="7723" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:37:40 IST" name="startUp" finished-at="2024-05-16T16:37:45 IST" duration-ms="5159" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,27 +146,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="ToVerifySpinner()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:39 IST" name="ToVerifySpinner" description="To verify wether Spinner works as expected" finished-at="2024-05-16T16:26:50 IST" duration-ms="11258" status="PASS">
+        <test-method signature="ToVerifySpinner()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:37:45 IST" name="ToVerifySpinner" description="To verify wether Spinner works as expected" finished-at="2024-05-16T16:37:48 IST" duration-ms="3250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToVerifySpinner -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:50 IST" name="tearEnd" finished-at="2024-05-16T16:26:50 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearEnd -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:26:50 IST" name="teardown" finished-at="2024-05-16T16:26:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:37:48 IST" name="teardown" finished-at="2024-05-16T16:37:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SpinnerTest@606e4010]" started-at="2024-05-16T16:37:48 IST" name="tearEnd" finished-at="2024-05-16T16:37:49 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearEnd -->
       </class> <!-- tests.SpinnerTest -->
     </test> <!-- Spinner -->
-    <test started-at="2024-05-16T16:26:50 IST" name="Sorting" finished-at="2024-05-16T16:27:08 IST" duration-ms="17365">
+    <test started-at="2024-05-16T16:37:49 IST" name="Sorting" finished-at="2024-05-16T16:37:56 IST" duration-ms="7407">
       <class name="tests.SortableTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:26:50 IST" name="beforeTest" finished-at="2024-05-16T16:26:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:37:49 IST" name="beforeTest" finished-at="2024-05-16T16:37:49 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:26:50 IST" name="startUp" finished-at="2024-05-16T16:26:57 IST" duration-ms="6446" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:37:49 IST" name="startUp" finished-at="2024-05-16T16:37:53 IST" duration-ms="4624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,15 +177,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="ToTestShoppingAndFeedsPositions()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:26:57 IST" name="ToTestShoppingAndFeedsPositions" description="To verfiy if interchange of feed&#039;s And Shopping&#039;s position is possible " finished-at="2024-05-16T16:27:07 IST" duration-ms="10508" status="PASS">
+        <test-method signature="ToTestShoppingAndFeedsPositions()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:37:53 IST" name="ToTestShoppingAndFeedsPositions" description="To verfiy if interchange of feed&#039;s And Shopping&#039;s position is possible " finished-at="2024-05-16T16:37:56 IST" duration-ms="2619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToTestShoppingAndFeedsPositions -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:27:07 IST" name="teardown" finished-at="2024-05-16T16:27:08 IST" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:37:56 IST" name="teardown" finished-at="2024-05-16T16:37:56 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:27:08 IST" name="tearEnd" finished-at="2024-05-16T16:27:08 IST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearEnd()[pri:0, instance:tests.SortableTest@cc43f62]" started-at="2024-05-16T16:37:56 IST" name="tearEnd" finished-at="2024-05-16T16:37:56 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearEnd -->

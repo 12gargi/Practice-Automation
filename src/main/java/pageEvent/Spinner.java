@@ -43,7 +43,7 @@ public class Spinner implements ThirdStep{
 	public void toVerifySpinner() throws InterruptedException
 	{
 //		wait.until(ExpectedConditions.visibilityOf(iframe));
-		Thread.sleep(5000);
+		Thread.sleep(2000);
        driver.switchTo().frame(iframe);
 		
         for (int i = 0; i < 3; i++) {

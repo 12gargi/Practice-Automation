@@ -36,7 +36,7 @@ public class Slider implements FirstStep {
 	public void SliderCanSlide() throws InterruptedException {
 		
 //		wait.until(ExpectedConditions.visibilityOf(frame));
-		Thread.sleep(5000);
+		Thread.sleep(2000);
         driver.switchTo().frame(frame);
 		String sliderPosition = red.getAttribute("style");
 		if (sliderPosition.contains("left: 100%")) {

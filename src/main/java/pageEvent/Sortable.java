@@ -44,7 +44,7 @@ public class Sortable implements ThirdStep{
 	public void testForSortshoppingAndfeed() throws InterruptedException
 	{
 //		wait.until(ExpectedConditions.visibilityOf(iframe));
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 	    driver.switchTo().frame(iframe);
         Actions action = new Actions(driver);
         action.clickAndHold(shop).moveToElement(feed).release().build().perform();

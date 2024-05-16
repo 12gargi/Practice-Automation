@@ -36,7 +36,7 @@ public class Tooltip implements FirstStep {
 	{
          //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
 //         wait.until(ExpectedConditions.visibilityOf(Frametool));
-		Thread.sleep(5000);
+		Thread.sleep(2000);
          driver.switchTo().frame(Frametool);
 		 wait.until(ExpectedConditions.visibilityOf(text));
 

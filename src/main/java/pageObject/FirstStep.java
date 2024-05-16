@@ -15,7 +15,7 @@ public interface FirstStep {
 	
 	//DialogBox
 	String frame =".demo-frame.lazyloaded";
-	String dialogbox = "//button[@id='create-user']";
+	String dialogbox = "//*[@id=\"create-user\"]";
 	String Content = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable";
 	String usename = "//*[@id=\"name\"]";
 	String email = "//*[@id=\"email\"]";

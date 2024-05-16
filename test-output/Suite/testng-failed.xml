@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="endpoint" value="dialog-boxes/"/>
+    <classes>
+      <class name="tests.DialogBoxTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="tearEnd"/>
+          <include name="ToEnterdialogBox"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- tests.DialogBoxTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
   <test thread-count="5" name="Test2(failed)">
     <parameter name="endpoint" value="accordion-and-tabs/"/>
     <classes>
       <class name="tests.AccordionTests">
         <methods>
           <include name="beforeTest"/>
-          <include name="teardown"/>
+          <include name="tearDown"/>
           <include name="verifyThatAccordionsAreWorking"/>
           <include name="tearEnd"/>
           <include name="startUp"/>
@@ -21,7 +35,7 @@
       <class name="tests.ProgressBarTest">
         <methods>
           <include name="beforeTest"/>
-          <include name="teardown"/>
+          <include name="tearDown"/>
           <include name="tearEnd"/>
           <include name="testFor100PercentCompletion"/>
           <include name="startUp"/>
@@ -29,4 +43,18 @@
       </class> <!-- tests.ProgressBarTest -->
     </classes>
   </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test8(failed)">
+    <parameter name="endpoint" value="select-elements/"/>
+    <classes>
+      <class name="tests.SelectElementsTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+          <include name="tearEnd"/>
+          <include name="startUp"/>
+          <include name="toVerifyMultipleSelect"/>
+        </methods>
+      </class> <!-- tests.SelectElementsTest -->
+    </classes>
+  </test> <!-- Test8(failed) -->
 </suite> <!-- Failed suite [Suite] -->

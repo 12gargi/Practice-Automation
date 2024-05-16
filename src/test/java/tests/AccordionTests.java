@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 import pageEvent.AccordionsAndTabs;
-import utils.Routes;
+
 
 
 public class AccordionTests extends BaseTest {

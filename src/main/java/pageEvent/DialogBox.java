@@ -18,7 +18,7 @@ public class DialogBox implements FirstStep {
 	WebDriver driver;
     WebDriverWait wait;
 	
-	@FindBy(css=frame)
+	@FindBy(xpath=frame)
 	
 	public WebElement iframe;
 	

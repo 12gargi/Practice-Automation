@@ -43,9 +43,9 @@ public class ProgressBar implements FirstStep{
     
     public void ProgressBarButtonVerification(WebDriver driver) throws InterruptedException {
     	
-    	Thread.sleep(3000);
+    	wait.until(ExpectedConditions.visibilityOf(iframe));
     	driver.switchTo().frame(iframe);
-    	Thread.sleep(3000);
+    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
     	btn.click();
     	
     	Assert.assertTrue(FileD.isDisplayed(), "Image is not displayed");
@@ -53,6 +53,7 @@ public class ProgressBar implements FirstStep{
     
     public void ProgressBarcompletes100Percent() {
         try {
+        	wait.until(ExpectedConditions.visibilityOf(iframe));
 
             driver.switchTo().frame(iframe);
 

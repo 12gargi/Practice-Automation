@@ -7,10 +7,10 @@ public interface SecondStep {
 	String AccordionHeader = "//*[@id=\"accordion\"]";
 
 	// TabsAndWindow
-	String clickHerebtn = "//*[@id=\"post-2632\"]/div[2]/div/div/div[1]/a";
+	String clickHerebtn = "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]";
 	
 	//DropDown
-	String dropDown = "//*[@id=\"post-2646\"]/div[2]/div/div/div/p/select";
+	String dropDown = "//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//p//select";
 	
 	//SelectElements
 	String frame = "//*[@id=\"post-2649\"]/div[2]/div/div/div[1]/p/iframe";

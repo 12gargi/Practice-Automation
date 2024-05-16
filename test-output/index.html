@@ -103,12 +103,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.SliderTest" class="method navigator-link" hash-for-method="VerifyingSlidersAreWorking">VerifyingSlidersAreWorking</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.ProgressBarTest" class="method navigator-link" hash-for-method="testFor100PercentCompletion">testFor100PercentCompletion</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.ProgressBarTest" class="method navigator-link" hash-for-method="testFor100PercentCompletion">testFor100PercentCompletion</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="tests.SelectElementsTest" class="method navigator-link" hash-for-method="toVerifyMultipleSelect">toVerifyMultipleSelect</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +142,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.SliderTest" class="method navigator-link" hash-for-method="VerifyingSlidersAreWorking">VerifyingSlidersAreWorking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.DropDownTest" class="method navigator-link" hash-for-method="testForDropDowselection">testForDropDowselection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -158,11 +163,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="tests.ToolTipTest" class="method navigator-link" hash-for-method="testToVerifyTooltipFunctionality">testToVerifyTooltipFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="tests.SelectElementsTest" class="method navigator-link" hash-for-method="toVerifyMultipleSelect">toVerifyMultipleSelect</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -189,58 +189,13 @@
                   </a> <!-- testFor100PercentCompletion -->
                   <span class="method-name">testFor100PercentCompletion</span>
                   <div class="stack-trace">java.lang.AssertionError: Failed to complete progress bar to 100%
-	at pageEvent.ProgressBar.ProgressBarcompletes100Percent(ProgressBar.java:69)
+	at pageEvent.ProgressBar.ProgressBarcompletes100Percent(ProgressBar.java:70)
 	at tests.ProgressBarTest.testFor100PercentCompletion(ProgressBarTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (test to verify ProgressBar completes 100%)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.SliderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyingSlidersAreWorking">
-                  </a> <!-- VerifyingSlidersAreWorking -->
-                  <span class="method-name">VerifyingSlidersAreWorking</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html[1]/body[1]/div[1]/span[1]&quot;}
-  (Session info: chrome-headless-shell=124.0.6367.207)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a32c0bac8c58393f58631e9eb15a28d4, findElement {value=/html[1]/body[1]/div[1]/span[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.207, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51968}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51968/devtoo..., se:cdpVersion: 124.0.6367.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a32c0bac8c58393f58631e9eb15a28d4
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.getAttribute(Unknown Source)
-	at pageEvent.Slider.SliderCanSlide(Slider.java:29)
-	at tests.SliderTest.VerifyingSlidersAreWorking(SliderTest.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verifying Sliders Are Working)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -256,15 +211,22 @@ Session ID: a32c0bac8c58393f58631e9eb15a28d4
                   <a name="verifyThatAccordionsAreWorking">
                   </a> <!-- verifyThatAccordionsAreWorking -->
                   <span class="method-name">verifyThatAccordionsAreWorking</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@class=&apos;demo-frame lazyloaded&apos;]&quot;}
-  (Session info: chrome-headless-shell=124.0.6367.207)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //iframe[@class=&apos;demo-frame lazyloaded&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageEvent.AccordionsAndTabs.switchToAframe(AccordionsAndTabs.java:41)
+	at pageEvent.AccordionsAndTabs.accordionsIsWorking(AccordionsAndTabs.java:47)
+	at tests.AccordionTests.verifyThatAccordionsAreWorking(AccordionTests.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//iframe[@class=&apos;demo-frame lazyloaded&apos;]&quot;}
+  (Session info: chrome-headless-shell=124.0.6367.208)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [403c03ee4df94b21c6274dd4087c88e7, findElement {value=//iframe[@class=&apos;demo-frame lazyloaded&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.207, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51770/devtoo..., se:cdpVersion: 124.0.6367.207, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 403c03ee4df94b21c6274dd4087c88e7
+Command: [716847833f5360e3142b378d079377d7, findElement {value=//iframe[@class=&apos;demo-frame lazyloaded&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54056/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 716847833f5360e3142b378d079377d7
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -278,17 +240,56 @@ Session ID: 403c03ee4df94b21c6274dd4087c88e7
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy18.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:1105)
-	at pageEvent.AccordionsAndTabs.switchToAframe(AccordionsAndTabs.java:41)
-	at pageEvent.AccordionsAndTabs.accordionsIsWorking(AccordionsAndTabs.java:46)
-	at tests.AccordionTests.verifyThatAccordionsAreWorking(AccordionTests.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 31 more
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (To verify That Accordions Are Working)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SelectElementsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toVerifyMultipleSelect">
+                  </a> <!-- toVerifyMultipleSelect -->
+                  <span class="method-name">toVerifyMultipleSelect</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome-headless-shell=124.0.6367.208)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e64713d46b395620b72cfa8e2331af6, actions {actions=[org.openqa.selenium.interactions.Sequence@24c685e7, org.openqa.selenium.interactions.Sequence@7da635c0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 124.0.6367.208, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\TESTRIG\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54403}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54403/devtoo..., se:cdpVersion: 124.0.6367.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e64713d46b395620b72cfa8e2331af6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+	at pageEvent.SelectElements.toSelectMutiEelement(SelectElements.java:57)
+	at tests.SelectElementsTest.toVerifyMultipleSelect(SelectElementsTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+( To Verify that it can select Multiple Element )                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -313,57 +314,6 @@ Session ID: 403c03ee4df94b21c6274dd4087c88e7
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.SelectElementsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="toVerifyMultipleSelect">
-                  </a> <!-- toVerifyMultipleSelect -->
-                  <span class="method-name">toVerifyMultipleSelect</span>
-                  <em>
-( To Verify that it can select Multiple Element )                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.SortableTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ToTestShoppingAndFeedsPositions">
-                  </a> <!-- ToTestShoppingAndFeedsPositions -->
-                  <span class="method-name">ToTestShoppingAndFeedsPositions</span>
-                  <em>
-(To verfiy if interchange of feed's And Shopping's position is possible )                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.DropDownTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testForDropDowselection">
-                  </a> <!-- testForDropDowselection -->
-                  <span class="method-name">testForDropDowselection</span>
-                  <em>
-(Test for Validation of DropDown)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">tests.ToolTipTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -374,23 +324,6 @@ Session ID: 403c03ee4df94b21c6274dd4087c88e7
                   <span class="method-name">testToVerifyTooltipFunctionality</span>
                   <em>
 (test to verify whether the tooltip works fine)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.DialogBoxTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ToEnterdialogBox">
-                  </a> <!-- ToEnterdialogBox -->
-                  <span class="method-name">ToEnterdialogBox</span>
-                  <em>
-(test to verify modal dialog box)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -415,6 +348,40 @@ Session ID: 403c03ee4df94b21c6274dd4087c88e7
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">tests.DropDownTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForDropDowselection">
+                  </a> <!-- testForDropDowselection -->
+                  <span class="method-name">testForDropDowselection</span>
+                  <em>
+(Test for Validation of DropDown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DialogBoxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToEnterdialogBox">
+                  </a> <!-- ToEnterdialogBox -->
+                  <span class="method-name">ToEnterdialogBox</span>
+                  <em>
+(test to verify modal dialog box)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">tests.TabsAndWindowsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -425,6 +392,40 @@ Session ID: 403c03ee4df94b21c6274dd4087c88e7
                   <span class="method-name">testToSwitchToOtherTab</span>
                   <em>
 (Test To Verify That After Clicking Button It Changes the Tab)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SortableTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToTestShoppingAndFeedsPositions">
+                  </a> <!-- ToTestShoppingAndFeedsPositions -->
+                  <span class="method-name">ToTestShoppingAndFeedsPositions</span>
+                  <em>
+(To verfiy if interchange of feed's And Shopping's position is possible )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SliderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyingSlidersAreWorking">
+                  </a> <!-- VerifyingSlidersAreWorking -->
+                  <span class="method-name">VerifyingSlidersAreWorking</span>
+                  <em>
+(Verifying Sliders Are Working)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -567,47 +568,47 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFor100PercentCompletion')
 data.setCell(0, 2, 'tests.ProgressBarTest')
-data.setCell(0, 3, 31050);
+data.setCell(0, 3, 31116);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyThatAccordionsAreWorking')
 data.setCell(1, 2, 'tests.AccordionTests')
-data.setCell(1, 3, 15186);
+data.setCell(1, 3, 30285);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyingSlidersAreWorking')
-data.setCell(2, 2, 'tests.SliderTest')
-data.setCell(2, 3, 15066);
+data.setCell(2, 1, 'testForProgressBarButton')
+data.setCell(2, 2, 'tests.ProgressBarTest')
+data.setCell(2, 3, 2404);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testForProgressBarButton')
-data.setCell(3, 2, 'tests.ProgressBarTest')
-data.setCell(3, 3, 6426);
+data.setCell(3, 1, 'testToSwitchToOtherTab')
+data.setCell(3, 2, 'tests.TabsAndWindowsTest')
+data.setCell(3, 3, 2366);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testToSwitchToOtherTab')
-data.setCell(4, 2, 'tests.TabsAndWindowsTest')
-data.setCell(4, 3, 2491);
+data.setCell(4, 1, 'testForDropDowselection')
+data.setCell(4, 2, 'tests.DropDownTest')
+data.setCell(4, 3, 2005);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testForDropDowselection')
-data.setCell(5, 2, 'tests.DropDownTest')
-data.setCell(5, 3, 1379);
+data.setCell(5, 1, 'ToVerifySpinner')
+data.setCell(5, 2, 'tests.SpinnerTest')
+data.setCell(5, 3, 1881);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testToVerifyTooltipFunctionality')
-data.setCell(6, 2, 'tests.ToolTipTest')
-data.setCell(6, 3, 1158);
+data.setCell(6, 1, 'ToEnterdialogBox')
+data.setCell(6, 2, 'tests.DialogBoxTest')
+data.setCell(6, 3, 1769);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ToVerifySpinner')
-data.setCell(7, 2, 'tests.SpinnerTest')
-data.setCell(7, 3, 1124);
+data.setCell(7, 1, 'testToVerifyTooltipFunctionality')
+data.setCell(7, 2, 'tests.ToolTipTest')
+data.setCell(7, 3, 638);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'ToEnterdialogBox')
-data.setCell(8, 2, 'tests.DialogBoxTest')
-data.setCell(8, 3, 860);
+data.setCell(8, 1, 'ToTestShoppingAndFeedsPositions')
+data.setCell(8, 2, 'tests.SortableTest')
+data.setCell(8, 3, 543);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'ToTestShoppingAndFeedsPositions')
-data.setCell(9, 2, 'tests.SortableTest')
-data.setCell(9, 3, 496);
+data.setCell(9, 1, 'toVerifyMultipleSelect')
+data.setCell(9, 2, 'tests.SelectElementsTest')
+data.setCell(9, 3, 426);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'toVerifyMultipleSelect')
-data.setCell(10, 2, 'tests.SelectElementsTest')
-data.setCell(10, 3, 459);
+data.setCell(10, 1, 'VerifyingSlidersAreWorking')
+data.setCell(10, 2, 'tests.SliderTest')
+data.setCell(10, 3, 148);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -645,244 +646,244 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(dialog-boxes/)</span>
-                <span class="method-start">520 ms</span>
+                <span class="method-start">1493 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ToEnterdialogBox</span>
-                <span class="method-start">12538 ms</span>
+                <span class="method-start">16179 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13406 ms</span>
+                <span class="method-start">17952 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">13572 ms</span>
+                <span class="method-start">18208 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.AccordionTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">14079 ms</span>
+                <span class="method-start">19021 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(accordion-and-tabs/)</span>
-                <span class="method-start">14083 ms</span>
+                <span class="method-start">19027 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyThatAccordionsAreWorking</span>
-                <span class="method-start">21760 ms</span>
+                <span class="method-start">25881 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">36956 ms</span>
+                <span class="method-start">56200 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">37079 ms</span>
+                <span class="method-start">56307 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DropDownTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">37193 ms</span>
+                <span class="method-start">56471 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(select-dropdown-menu/)</span>
-                <span class="method-start">37197 ms</span>
+                <span class="method-start">56474 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForDropDowselection</span>
-                <span class="method-start">42151 ms</span>
+                <span class="method-start">61697 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">43532 ms</span>
+                <span class="method-start">63704 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">43623 ms</span>
+                <span class="method-start">63823 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ProgressBarTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">43710 ms</span>
+                <span class="method-start">63936 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(progress-bar/)</span>
-                <span class="method-start">43713 ms</span>
+                <span class="method-start">63938 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFor100PercentCompletion</span>
-                <span class="method-start">50252 ms</span>
+                <span class="method-start">69647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">81312 ms</span>
+                <span class="method-start">100778 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(progress-bar/)</span>
-                <span class="method-start">81433 ms</span>
+                <span class="method-start">100924 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testForProgressBarButton</span>
-                <span class="method-start">86380 ms</span>
+                <span class="method-start">106682 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">92808 ms</span>
+                <span class="method-start">109087 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">92922 ms</span>
+                <span class="method-start">109201 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SliderTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">92997 ms</span>
+                <span class="method-start">109300 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(sliders/)</span>
-                <span class="method-start">93001 ms</span>
+                <span class="method-start">109302 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">VerifyingSlidersAreWorking</span>
-                <span class="method-start">100025 ms</span>
+                <span class="method-start">115727 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">115095 ms</span>
+                <span class="method-start">115878 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">115229 ms</span>
+                <span class="method-start">116032 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TabsAndWindowsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">115297 ms</span>
+                <span class="method-start">116124 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(frames-and-windows/)</span>
-                <span class="method-start">115299 ms</span>
+                <span class="method-start">116128 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testToSwitchToOtherTab</span>
-                <span class="method-start">121066 ms</span>
+                <span class="method-start">122460 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">123560 ms</span>
+                <span class="method-start">124828 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">123677 ms</span>
+                <span class="method-start">124978 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ToolTipTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">123756 ms</span>
+                <span class="method-start">125059 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(tooltip/)</span>
-                <span class="method-start">123758 ms</span>
+                <span class="method-start">125062 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testToVerifyTooltipFunctionality</span>
-                <span class="method-start">129976 ms</span>
+                <span class="method-start">131465 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">131136 ms</span>
+                <span class="method-start">132104 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">131227 ms</span>
+                <span class="method-start">132207 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SelectElementsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">131292 ms</span>
+                <span class="method-start">132296 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(select-elements/)</span>
-                <span class="method-start">131294 ms</span>
+                <span class="method-start">132298 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">toVerifyMultipleSelect</span>
-                <span class="method-start">137354 ms</span>
+                <span class="method-start">139257 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">137814 ms</span>
+                <span class="method-start">139686 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">137934 ms</span>
+                <span class="method-start">139795 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SpinnerTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">138008 ms</span>
+                <span class="method-start">139885 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(spinner/)</span>
-                <span class="method-start">138010 ms</span>
+                <span class="method-start">139887 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ToVerifySpinner</span>
-                <span class="method-start">147032 ms</span>
+                <span class="method-start">146725 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">148157 ms</span>
+                <span class="method-start">148607 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">148158 ms</span>
+                <span class="method-start">148608 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.SortableTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">148223 ms</span>
+                <span class="method-start">148693 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(sorting/)</span>
-                <span class="method-start">148226 ms</span>
+                <span class="method-start">148695 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ToTestShoppingAndFeedsPositions</span>
-                <span class="method-start">154848 ms</span>
+                <span class="method-start">155434 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">155345 ms</span>
+                <span class="method-start">155979 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">tearEnd</span>
-                <span class="method-start">155435 ms</span>
+                <span class="method-start">156116 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

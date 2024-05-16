@@ -18,7 +18,7 @@ public class TabsAndWindows implements SecondStep{
 	WebDriverWait wait;
 	
 	@FindBy(xpath =clickHerebtn)
-	public WebElement butt;
+	public WebElement button;
 	
 	public TabsAndWindows(WebDriver driver)
 	{
@@ -30,8 +30,8 @@ public class TabsAndWindows implements SecondStep{
 	public void switchToAnotherTab()
 	{
         String currentWindowHandle = driver.getWindowHandle(); 
-        wait.until(ExpectedConditions.visibilityOf(butt));
-        butt.click(); 
+        wait.until(ExpectedConditions.visibilityOf(button));
+        button.click(); 
         for (String windowHandle : driver.getWindowHandles()) {
             if (!windowHandle.equals(currentWindowHandle)) {
                 driver.switchTo().window(windowHandle);

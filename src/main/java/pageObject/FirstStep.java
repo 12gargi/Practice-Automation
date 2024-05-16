@@ -4,6 +4,7 @@ public interface FirstStep {
 	
 	
 	//Sliders
+	String Sliderframe = "//iframe[@class='demo-frame lazyloaded']";
 	String redScanner = "/html[1]/body[1]/div[1]/span[1]";
 	String blueScanner="//div[@id='blue']/span";
 	

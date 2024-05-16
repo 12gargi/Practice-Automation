@@ -38,6 +38,7 @@ public class AccordionsAndTabs implements SecondStep {
       
       public void switchToAframe() {
     	  
+    	  wait.until(ExpectedConditions.visibilityOf(Aframe));
           driver.switchTo().frame(Aframe);
       }
 

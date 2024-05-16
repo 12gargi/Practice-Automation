@@ -48,6 +48,7 @@ public class DialogBox implements FirstStep {
 	
 	public void enterIntoDialogBox()
 	{
+		wait.until(ExpectedConditions.visibilityOf(iframe));
 		driver.switchTo().frame(iframe);
 		box.click();
 		wait.until(ExpectedConditions.visibilityOf(cont));

@@ -1,16 +1,21 @@
 package pageEvent;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObject.ThirdStep;
 
 public class Sortable implements ThirdStep{
 	
 	WebDriver driver;
+	WebDriverWait wait;
 	
 	@FindBy(xpath = sortframe)
     public WebElement iframe;
@@ -31,12 +36,14 @@ public class Sortable implements ThirdStep{
 	public Sortable(WebDriver driver)
 	{
 		this.driver = driver;
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(7));
 		PageFactory.initElements(driver, this);
 	}
 	
 	
 	public void testForSortshoppingAndfeed()
 	{
+		wait.until(ExpectedConditions.visibilityOf(iframe));
 	    driver.switchTo().frame(iframe);
         Actions action = new Actions(driver);
         action.clickAndHold(shop).moveToElement(feed).release().build().perform();

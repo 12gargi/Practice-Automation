@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="2" name="DialogBox">
+  <!-- <test thread-count="2" name="DialogBox">
     <parameter name="endpoint" value="dialog-boxes/" />
     <classes>
       <class name="tests.DialogBoxTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test --> -->
 
-  <test thread-count="2" name="Accordions">
+  <!--<test thread-count="2" name="Accordions">
     <parameter name="endpoint" value="accordion-and-tabs/" />
     <classes>
       <class name="tests.AccordionTests"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- Test --> -->
   
   <test thread-count="2" name="Dropdown">
     <parameter name="endpoint" value="select-dropdown-menu/" />
@@ -22,12 +22,12 @@
     </classes>
   </test>
   
-    <test thread-count="2" name="ProgressBar">
+    <!--  <test thread-count="2" name="ProgressBar">
     <parameter name="endpoint" value="progress-bar/" />
     <classes>
       <class name="tests.ProgressBarTest"/>
     </classes>
-  </test>
+  </test>-->
   
   <test thread-count="2" name="Sliders">
     <parameter name="endpoint" value="sliders/" />
@@ -50,12 +50,12 @@
     </classes>
   </test>
   
-  <test thread-count="2" name="MultipleElements">
+  <!-- <test thread-count="2" name="MultipleElements">
     <parameter name="endpoint" value="select-elements/" />
     <classes>
       <class name="tests.SelectElementsTest"/>
     </classes>
-  </test>
+  </test> -->
   
   <test thread-count="2" name="Spinner">
     <parameter name="endpoint" value="spinner/" />

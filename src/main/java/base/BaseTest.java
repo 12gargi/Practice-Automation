@@ -40,8 +40,8 @@ public class BaseTest {
     public void startUp(@Optional String endpoint) {
 //        driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--start-maximized");
-        options.addArguments("--headless");
+        options.addArguments("--start-maximized");
+//        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get(Routes.base_url + endpoint);
        // driver.get(Routes.DropDown);

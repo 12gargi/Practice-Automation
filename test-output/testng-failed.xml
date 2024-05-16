@@ -51,8 +51,8 @@
           <include name="beforeTest"/>
           <include name="teardown"/>
           <include name="tearEnd"/>
-          <include name="startUp"/>
           <include name="toVerifyMultipleSelect"/>
+          <include name="startUp"/>
         </methods>
       </class> <!-- tests.SelectElementsTest -->
     </classes>

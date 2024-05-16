@@ -29,18 +29,4 @@
       </class> <!-- tests.ProgressBarTest -->
     </classes>
   </test> <!-- Test4(failed) -->
-  <test thread-count="5" name="Test8(failed)">
-    <parameter name="endpoint" value="select-elements/"/>
-    <classes>
-      <class name="tests.SelectElementsTest">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="teardown"/>
-          <include name="tearEnd"/>
-          <include name="toVerifyMultipleSelect"/>
-          <include name="startUp"/>
-        </methods>
-      </class> <!-- tests.SelectElementsTest -->
-    </classes>
-  </test> <!-- Test8(failed) -->
 </suite> <!-- Failed suite [Suite] -->

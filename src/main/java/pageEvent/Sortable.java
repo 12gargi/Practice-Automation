@@ -17,7 +17,7 @@ public class Sortable implements ThirdStep{
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	@FindBy(xpath = sortframe)
+	@FindBy(css = sortframe)
     public WebElement iframe;
 	
 	@FindBy(xpath = feeds)
@@ -36,7 +36,7 @@ public class Sortable implements ThirdStep{
 	public Sortable(WebDriver driver)
 	{
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver,Duration.ofSeconds(7));
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 	

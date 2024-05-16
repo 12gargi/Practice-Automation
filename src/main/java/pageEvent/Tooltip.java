@@ -22,13 +22,13 @@ public class Tooltip implements FirstStep {
 	@FindBy(css = ElementWithToolTip)
 	public WebElement tool;
 	
-	@FindBy(xpath = toolFrame)
+	@FindBy(css = toolFrame)
 	public WebElement Frametool;
 
 
 	public Tooltip(WebDriver driver) {
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 

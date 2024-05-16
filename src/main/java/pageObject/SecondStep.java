@@ -3,14 +3,14 @@ package pageObject;
 public interface SecondStep {
 	
 	//Accordions
-	String AccordFrame = "//iframe[@class='demo-frame lazyloaded']";
+	String AccordFrame = ".demo-frame.lazyloaded";
 	String AccordionHeader = "//*[@id=\"accordion\"]";
 
 	// TabsAndWindow
-	String clickHerebtn = "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]";
+	String clickHerebtn = "(//a[@class='button e.g. button_hilite button_pale small_button'][normalize-space()='Click Here'])[1]";
 	
 	//DropDown
-	String dropDown = "//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//p//select";
+	String dropDown = "(//select)[1]";
 	
 	//SelectElements
 	String frame = "//*[@id=\"post-2649\"]/div[2]/div/div/div[1]/p/iframe";

@@ -17,7 +17,7 @@ public class ProgressBar implements FirstStep{
 	WebDriver driver;
 	WebDriverWait wait;
 	
-    @FindBy(xpath=frameProgress)
+    @FindBy(css=frameProgress)
 	
 	public WebElement iframe;
     

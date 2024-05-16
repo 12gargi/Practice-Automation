@@ -22,7 +22,7 @@ public class AccordionsAndTabs implements SecondStep {
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	@FindBy(xpath = AccordFrame)
+	@FindBy(css = AccordFrame)
 	public WebElement Aframe;
 	
 	@FindBy(xpath=AccordionHeader)

@@ -18,7 +18,7 @@ public class Slider implements FirstStep {
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	@FindBy(xpath = Sliderframe)
+	@FindBy(css = Sliderframe)
 	public WebElement frame;
 
 	@FindBy(xpath=redScanner)
@@ -29,7 +29,7 @@ public class Slider implements FirstStep {
 
 	public Slider(WebDriver driver) {
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 

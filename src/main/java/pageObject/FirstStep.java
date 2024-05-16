@@ -4,17 +4,17 @@ public interface FirstStep {
 	
 	
 	//Sliders
-	String Sliderframe = "//iframe[@class='demo-frame lazyloaded']";
+	String Sliderframe = ".demo-frame.lazyloaded";
 	String redScanner = "/html[1]/body[1]/div[1]/span[1]";
 	String blueScanner="//div[@id='blue']/span";
 	
 	//Tooltip
-	String toolFrame = "//iframe[@class='demo-frame lazyloaded']";
+	String toolFrame = ".demo-frame.lazyloaded";
 	String texttooltip = "body > div:nth-child(1) > div > h3 > a";
 	String ElementWithToolTip = "body > div:nth-child(1) > div";
 	
 	//DialogBox
-	String frame ="//iframe[@class='demo-frame lazyloaded']";
+	String frame =".demo-frame.lazyloaded";
 	String dialogbox = "//button[@id='create-user']";
 	String Content = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable";
 	String usename = "//*[@id=\"name\"]";
@@ -23,7 +23,7 @@ public interface FirstStep {
 	String createButton = "/html/body/div[3]/div[3]/div/button[1]";
 	
 	//Progress Bar
-	String frameProgress = "//iframe[@class='demo-frame lazyloaded']";
+	String frameProgress = ".demo-frame.lazyloaded";
 	String downloadButton = "//*[@id=\"downloadButton\"]";
 	String FileDownload = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable";
 	String Progress = "//*[@id=\"progressbar\"]/div";

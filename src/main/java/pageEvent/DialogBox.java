@@ -18,11 +18,11 @@ public class DialogBox implements FirstStep {
 	WebDriver driver;
     WebDriverWait wait;
 	
-	@FindBy(xpath=frame)
+	@FindBy(css=frame)
 	
 	public WebElement iframe;
 	
-	@FindBy(xpath=dialogbox)
+	@FindBy(css=dialogbox)
 	public WebElement box;
 	
 	@FindBy(css=Content)

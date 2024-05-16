@@ -17,7 +17,7 @@ public class Spinner implements ThirdStep{
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	@FindBy(xpath = spinerframe)
+	@FindBy(css = spinerframe)
 	public WebElement iframe;
 	
 	@FindBy(xpath = spinnerInput)
@@ -36,7 +36,7 @@ public class Spinner implements ThirdStep{
 	public Spinner(WebDriver driver)
 	{
 		this.driver = driver;
-		this.wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
 	}
 	

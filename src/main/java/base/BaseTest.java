@@ -38,13 +38,13 @@ public class BaseTest {
     @BeforeMethod
     @Parameters("endpoint")
     public void startUp(@Optional String endpoint) {
-//        driver = new ChromeDriver();
-        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--start-maximized");
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
-        driver.get(Routes.base_url + endpoint);
-//        driver.get(Routes.Sortable);
+        driver = new ChromeDriver();
+//        ChromeOptions options = new ChromeOptions();
+////        options.addArguments("--start-maximized");
+//        options.addArguments("--headless");
+//        driver = new ChromeDriver(options);
+//        driver.get(Routes.base_url + endpoint);
+        driver.get(Routes.DropDown);
         driver.manage().window().maximize();// Concatenate base URL with endpoint
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }

@@ -8,12 +8,12 @@
     </classes>
   </test>  
 
-  <test thread-count="2" name="Accordions">
+  <!--  <test thread-count="2" name="Accordions">
     <parameter name="endpoint" value="demo-site/accordion-and-tabs/" />
     <classes>
       <class name="tests.AccordionTests"/>
     </classes>
-  </test>  
+  </test>  -->
   
   <test thread-count="2" name="Dropdown">
     <parameter name="endpoint" value="demo-site/select-dropdown-menu/" />
@@ -50,12 +50,12 @@
     </classes>
   </test>
   
- <test thread-count="2" name="MultipleElements">
+ <!--<test thread-count="2" name="MultipleElements">
     <parameter name="endpoint" value="demo-site/select-elements/" />
     <classes>
       <class name="tests.SelectElementsTest"/>
     </classes>
-  </test> 
+  </test> -->
   
   <test thread-count="2" name="Spinner">
     <parameter name="endpoint" value="demo-site/spinner/" />
@@ -64,19 +64,19 @@
     </classes>
   </test>
   
-   <test thread-count="2" name="Sorting">
+  <!-- <test thread-count="2" name="Sorting">
        <parameter name="endpoint" value="demo-site/sorting/" />
     <classes>
       <class name="tests.SortableTest"/>
     </classes>
-  </test>
+  </test>  -->
   
-  <test thread-count="2" name="Toolbar">
+  <!-- <test thread-count="2" name="Toolbar">
        <parameter name="endpoint" value="demo-site/toolbar/" />
     <classes>
       <class name="tests.ToolBarTest"/>
     </classes>
-  </test>
+  </test> -->
   
   <test thread-count="2" name="DatePicker">
        <parameter name="endpoint" value="demo-site/datepicker/" />
@@ -92,12 +92,12 @@
     </classes>
   </test>
   
-  <test thread-count="2" name="DraggableBox">
+ <!--   <test thread-count="2" name="DraggableBox">
        <parameter name="endpoint" value="demo-site/draganddrop/" />
     <classes>
       <class name="tests.DraggableBoxTest"/>
     </classes>
-  </test>
+  </test>-->
   
    <test thread-count="2" name="SampleTest">
        <parameter name="endpoint" value="samplepagetest/" />

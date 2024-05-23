@@ -59,7 +59,7 @@ public class AccordionsAndTabs implements SecondStep {
     	        driver.switchTo().defaultContent();
     	    }
       private void scrollToElement(WebElement element) {
-          ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+          ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", element);
       }
 }
 

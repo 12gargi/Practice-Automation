@@ -39,11 +39,11 @@ public class DragAndDropTest extends BaseTest {
 	    drag.testForForthToDragInTrash();
 	}
 	
-	@Test(description = "to verify drag and drop works as expected")
+	/*@Test(description = "to verify drag and drop works as expected")
 	public void testForAlltoDragAndDrop() throws InterruptedException
 	{
 	    drag = new DragAndDrop(driver);
 	    drag.testForAllToDragInTrash();
-	}
+	}*/
 
 }

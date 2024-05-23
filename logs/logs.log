@@ -526,3 +526,163 @@
 [INFO ] 2024-05-23 14:01:44.824 [main] BaseTest - Quitting driver
 [INFO ] 2024-05-23 14:01:48.718 [main] BaseTest - Logged in to the website
 [INFO ] 2024-05-23 14:01:49.184 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:09:52.093 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:09:52.394 [main] DialogBox - test for dialog Box
+[INFO ] 2024-05-23 16:10:02.601 [main] DialogBox - switched into iframe
+[INFO ] 2024-05-23 16:10:03.348 [main] DialogBox - Entered form details
+[INFO ] 2024-05-23 16:10:03.674 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:10:08.941 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:10:19.096 [main] AccordionsAndTabs - switched into iframe
+[INFO ] 2024-05-23 16:10:19.096 [main] AccordionsAndTabs - test for Accordions
+[INFO ] 2024-05-23 16:10:44.246 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:10:49.097 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:10:49.194 [main] DropDown - test for Dropdown
+[INFO ] 2024-05-23 16:10:51.470 [main] DropDown - DropDown option selected
+[INFO ] 2024-05-23 16:10:52.372 [main] DropDown - Assertion Applied
+[INFO ] 2024-05-23 16:10:52.493 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:10:57.129 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:10:57.171 [main] ProgressBar - Test for ProgressBar completion
+[INFO ] 2024-05-23 16:11:37.744 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:11:40.254 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:11:42.279 [main] ProgressBar - Test for ProgressBar Button
+[INFO ] 2024-05-23 16:11:52.409 [main] ProgressBar - switched into iframe
+[INFO ] 2024-05-23 16:11:52.746 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:11:57.374 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:11:57.422 [main] Slider - test for slider
+[INFO ] 2024-05-23 16:11:59.715 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:03.804 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:03.840 [main] TabsAndWindows - test for switch to another tab
+[INFO ] 2024-05-23 16:12:08.853 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:11.345 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:13.527 [main] Tooltip - test for tooltip
+[INFO ] 2024-05-23 16:12:16.077 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:20.431 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:20.482 [main] SelectElements - test for Multiple element Selection
+[INFO ] 2024-05-23 16:12:30.914 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:38.814 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:38.870 [main] Spinner - test for Spinner
+[INFO ] 2024-05-23 16:12:42.042 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:47.329 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:47.365 [main] Sortable - test for Sorting
+[INFO ] 2024-05-23 16:12:49.567 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:53.981 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:54.022 [main] Toolbar - test for toolbar print button
+[INFO ] 2024-05-23 16:12:54.556 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:12:58.178 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:12:58.215 [main] Toolbar - test for toolbar Redo button
+[INFO ] 2024-05-23 16:12:59.480 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:04.012 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:04.048 [main] Toolbar - test for toolbar Undo button
+[INFO ] 2024-05-23 16:13:04.525 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:09.165 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:09.198 [main] Toolbar - test for toolbar zoom dropdown
+[INFO ] 2024-05-23 16:13:13.504 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:17.951 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:17.981 [main] Datepicker - test for datepicker
+[INFO ] 2024-05-23 16:13:26.967 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:31.440 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:31.487 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 16:13:36.394 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:41.636 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:41.667 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 16:13:42.328 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:47.084 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:47.112 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 16:13:47.745 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:53.548 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:53.580 [main] DragAndDrop - test for first element to  drag And Drop
+[INFO ] 2024-05-23 16:13:54.232 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:13:59.171 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:13:59.194 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 16:13:59.863 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:04.095 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:19.307 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:23.588 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:24.124 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:27.819 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:28.158 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:32.360 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:39.153 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:43.021 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:43.263 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:47.229 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:47.745 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:52.557 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:52.890 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:14:57.624 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:14:58.447 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:15:02.357 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:15:03.125 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:15:07.532 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:15:07.830 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:15:11.695 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:15:16.925 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:15:21.033 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:15:21.727 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:53:50.377 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:53:50.688 [main] Sortable - test for Sorting
+[INFO ] 2024-05-23 16:53:53.275 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 16:59:52.468 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 16:59:52.562 [main] DialogBox - test for dialog Box
+[INFO ] 2024-05-23 17:00:02.700 [main] DialogBox - switched into iframe
+[INFO ] 2024-05-23 17:00:03.419 [main] DialogBox - Entered form details
+[INFO ] 2024-05-23 17:00:03.554 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:00:08.104 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:00:08.215 [main] DropDown - test for Dropdown
+[INFO ] 2024-05-23 17:00:10.437 [main] DropDown - DropDown option selected
+[INFO ] 2024-05-23 17:00:11.377 [main] DropDown - Assertion Applied
+[INFO ] 2024-05-23 17:00:11.491 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:00:17.493 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:00:17.525 [main] ProgressBar - Test for ProgressBar Button
+[INFO ] 2024-05-23 17:00:27.689 [main] ProgressBar - switched into iframe
+[INFO ] 2024-05-23 17:00:28.046 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:00:33.813 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:00:33.846 [main] Slider - test for slider
+[INFO ] 2024-05-23 17:00:36.130 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:00:41.442 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:00:41.482 [main] TabsAndWindows - test for switch to another tab
+[INFO ] 2024-05-23 17:00:45.060 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:00:52.040 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:00:52.075 [main] Tooltip - test for tooltip
+[INFO ] 2024-05-23 17:00:54.688 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:00:59.500 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:00:59.551 [main] SelectElements - test for Multiple element Selection
+[INFO ] 2024-05-23 17:01:10.033 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:01:15.280 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:01:15.324 [main] Spinner - test for Spinner
+[INFO ] 2024-05-23 17:01:18.386 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:01:24.574 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:01:24.608 [main] Datepicker - test for datepicker
+[INFO ] 2024-05-23 17:01:33.666 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:01:39.419 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:01:39.459 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 17:01:40.076 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:01:44.062 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:01:44.153 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 17:01:46.041 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:01:51.252 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:01:51.283 [main] DragAndDrop - test for first element to  drag And Drop
+[INFO ] 2024-05-23 17:01:52.002 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:04.725 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:04.754 [main] DragAndDrop - test for second element to drag And Drop
+[INFO ] 2024-05-23 17:02:05.371 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:09.816 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:10.269 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:15.857 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:16.146 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:19.972 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:21.401 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:25.545 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:25.790 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:29.553 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:30.090 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:34.610 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:34.858 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:38.442 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:39.108 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:42.833 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:43.060 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:46.973 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:47.371 [main] BaseTest - Quitting driver
+[INFO ] 2024-05-23 17:02:51.475 [main] BaseTest - Logged in to the website
+[INFO ] 2024-05-23 17:02:52.007 [main] BaseTest - Quitting driver

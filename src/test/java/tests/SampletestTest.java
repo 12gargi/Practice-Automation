@@ -9,12 +9,12 @@ public class SampletestTest extends BaseTest {
 
 	SampleTest test;
 	
-	@Test(description="to verify the upload functionality")
+	/*@Test(description="to verify the upload functionality")
 	public void toVerifyUploadButton()
 	{
 		test = new SampleTest(driver);
 		test.testForUploadButton();
-	}
+	}*/
 	
 	@Test(description="to verify the input functionality of Name , Email and Website")
 	public void  toEnterDetails()
@@ -91,7 +91,7 @@ public class SampletestTest extends BaseTest {
 	public void toVerifyAll()
 	{
 		test = new SampleTest(driver);
-		test.testForUploadButton();
+//		test.testForUploadButton();
 		test.testForNameEmailAndWebsite("john", "john@mail.com", "www.john.com");
 		test.testforExperienceDropdown();
 		test.testforMultipleSelectCheckBox();

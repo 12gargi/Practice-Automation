@@ -48,7 +48,7 @@ public class BaseTest {
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get(Routes.base_url + endpoint);
-//        driver.get(Routes.SampleTest);
+//        driver.get(Routes.Sortable);
         log.info("Logged in to the website");
         driver.manage().window().maximize();// Concatenate base URL with endpoint
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

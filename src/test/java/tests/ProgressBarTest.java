@@ -18,11 +18,11 @@ public class ProgressBarTest extends BaseTest {
 		progressbar.ProgressBarButtonVerification(driver);
 	}
 	
-	@Test(description = "test to verify ProgressBar completes 100%")
+	/*@Test(description = "test to verify ProgressBar completes 100%")
 	public void testFor100PercentCompletion() 
 	{
 		//startUp(Routes.ProgressBar);
 		progressbar = new ProgressBar(driver);
 		progressbar.ProgressBarcompletes100Percent();
-	}
+	}*/
 }

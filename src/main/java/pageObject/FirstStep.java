@@ -15,18 +15,18 @@ public interface FirstStep {
 	
 	//DialogBox
 	String frame ="//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//iframe[@class='demo-frame lazyloaded']";
-	String dialogbox = "//button[@id=\"create-user\"]";//*[@id="create-user"]
+	String dialogbox = "//button[@id='create-user']";//*[@id="create-user"]
 	String Content = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable";
-	String usename = "//*[@id=\"name\"]";
-	String email = "//*[@id=\"email\"]";
-	String password ="//*[@id=\"password\"]";
+	String usename = "//*[@id='name']";
+	String email = "//*[@id='email']";
+	String password ="//*[@id='password']";
 	String createButton = "/html/body/div[3]/div[3]/div/button[1]";
 	
 	//Progress Bar
 	String frameProgress = ".demo-frame.lazyloaded";
-	String downloadButton = "//*[@id=\"downloadButton\"]";
+	String downloadButton = "//*[@id='downloadButton']";
 	String FileDownload = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable";
-	String Progress = "//*[@id=\"progressbar\"]/div";
+	String Progress = "//*[@id='progressbar']/div";
 	String close = "/html/body/div[2]/div[3]/div/button";
 
 }

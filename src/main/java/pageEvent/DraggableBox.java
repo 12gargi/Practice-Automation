@@ -24,7 +24,7 @@ public class DraggableBox implements ThirdStep {
 	Logger log;
 	WebDriverWait wait;
 	
-	@FindBy(xpath = Boxiframe)
+	@FindBy(css = Boxiframe)
 	public WebElement frame;
 	
 	@FindBy(xpath = DragBox )

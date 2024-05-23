@@ -21,7 +21,7 @@ public class DropDown implements SecondStep{
 	WebDriverWait wait;
 	Logger log;
 	
-	@FindBy(xpath = dropDown)
+	@FindBy(css = dropDown)
 	public WebElement drop;
 	
 	public DropDown(WebDriver driver)

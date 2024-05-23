@@ -19,7 +19,7 @@ public class Spinner implements ThirdStep{
 	WebDriverWait wait;
 	Logger log;
 	
-	@FindBy(xpath = spinerframe)
+	@FindBy(css = spinerframe)
 	public WebElement iframe;
 	
 	@FindBy(xpath = spinnerInput)

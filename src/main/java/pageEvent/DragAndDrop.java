@@ -19,7 +19,7 @@ public class DragAndDrop implements ThirdStep {
 	Logger log;
 	WebDriverWait wait;
 
-	@FindBy(xpath =dragiframe)
+	@FindBy(css =dragiframe)
 	public WebElement frame;
 	
 	@FindBy(xpath =listImage)

@@ -20,7 +20,7 @@ public class Sortable implements ThirdStep{
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	@FindBy(xpath = sortframe)
+	@FindBy(css = sortframe)
     public WebElement iframe;
 	
 	@FindBy(xpath = feeds)

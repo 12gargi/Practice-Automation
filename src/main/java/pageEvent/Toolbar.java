@@ -22,7 +22,7 @@ public class Toolbar implements ThirdStep {
 	WebDriverWait wait;
 	Logger log;
 	
-	@FindBy(xpath =toolbarframe)
+	@FindBy(css =toolbarframe)
 	public WebElement iframe; 
 	
 	@FindBy(xpath = Printbutton)

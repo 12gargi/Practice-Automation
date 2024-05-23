@@ -23,7 +23,7 @@ public class SelectElements implements SecondStep {
 	WebDriverWait wait;
 	Logger log;
 
-	@FindBy(xpath = frame)
+	@FindBy(css = frame)
 	public WebElement iframe;
 
 	@FindBys({ @FindBy(xpath = Selectchild1), @FindBy(xpath = Selectchild2), @FindBy(xpath = Selectchild3),

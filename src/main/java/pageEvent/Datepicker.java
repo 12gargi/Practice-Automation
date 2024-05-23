@@ -22,7 +22,7 @@ public class Datepicker implements ThirdStep {
 	@FindBy(xpath=dateinput)
 	public WebElement date;
 	
-	@FindBy(xpath = dateFrame)
+	@FindBy(css = dateFrame)
 	public WebElement iframe;
 	
 	@FindBy(xpath=daterow)

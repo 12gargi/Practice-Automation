@@ -14,8 +14,8 @@ public interface FirstStep {
 	String ElementWithToolTip = "body > div:nth-child(1) > div";
 	
 	//DialogBox
-	String frame ="//iframe[@class='demo-frame lazyloaded']";
-	String dialogbox = "//*[@id=\"create-user\"]";//*[@id="create-user"]
+	String frame ="//div[@class='single_tab_div resp-tab-content resp-tab-content-active']//iframe[@class='demo-frame lazyloaded']";
+	String dialogbox = "//button[@id=\"create-user\"]";//*[@id="create-user"]
 	String Content = "body > div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable";
 	String usename = "//*[@id=\"name\"]";
 	String email = "//*[@id=\"email\"]";

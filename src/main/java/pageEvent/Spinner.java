@@ -2,11 +2,12 @@ package pageEvent;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -16,8 +17,9 @@ public class Spinner implements ThirdStep{
 	
 	WebDriver driver;
 	WebDriverWait wait;
+	Logger log;
 	
-	@FindBy(css = spinerframe)
+	@FindBy(xpath = spinerframe)
 	public WebElement iframe;
 	
 	@FindBy(xpath = spinnerInput)
@@ -37,11 +39,13 @@ public class Spinner implements ThirdStep{
 	{
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		this.log = LogManager.getLogger(Spinner.class);
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void toVerifySpinner() throws InterruptedException
 	{
+		log.info("test for Spinner");
 //		wait.until(ExpectedConditions.visibilityOf(iframe));
 		Thread.sleep(2000);
        driver.switchTo().frame(iframe);

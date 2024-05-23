@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="DialogBox(failed)">
-    <parameter name="endpoint" value="dialog-boxes/"/>
+    <parameter name="endpoint" value="demo-site/dialog-boxes/"/>
     <classes>
       <class name="tests.DialogBoxTest">
         <methods>
@@ -16,7 +16,7 @@
     </classes>
   </test> <!-- DialogBox(failed) -->
   <test thread-count="5" name="Accordions(failed)">
-    <parameter name="endpoint" value="accordion-and-tabs/"/>
+    <parameter name="endpoint" value="demo-site/accordion-and-tabs/"/>
     <classes>
       <class name="tests.AccordionTests">
         <methods>
@@ -30,7 +30,7 @@
     </classes>
   </test> <!-- Accordions(failed) -->
   <test thread-count="5" name="ProgressBar(failed)">
-    <parameter name="endpoint" value="progress-bar/"/>
+    <parameter name="endpoint" value="demo-site/progress-bar/"/>
     <classes>
       <class name="tests.ProgressBarTest">
         <methods>
@@ -44,17 +44,61 @@
     </classes>
   </test> <!-- ProgressBar(failed) -->
   <test thread-count="5" name="MultipleElements(failed)">
-    <parameter name="endpoint" value="select-elements/"/>
+    <parameter name="endpoint" value="demo-site/select-elements/"/>
     <classes>
       <class name="tests.SelectElementsTest">
         <methods>
           <include name="beforeTest"/>
           <include name="teardown"/>
           <include name="tearEnd"/>
-          <include name="toVerifyMultipleSelect"/>
           <include name="startUp"/>
+          <include name="toVerifyMultipleSelect"/>
         </methods>
       </class> <!-- tests.SelectElementsTest -->
     </classes>
   </test> <!-- MultipleElements(failed) -->
+  <test thread-count="5" name="Toolbar(failed)">
+    <parameter name="endpoint" value="demo-site/toolbar/"/>
+    <classes>
+      <class name="tests.ToolBarTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+          <include name="verifyZoomDropdown"/>
+          <include name="verifyPrintButtonMessage"/>
+          <include name="tearEnd"/>
+          <include name="verifyRedoButtonMessage"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- tests.ToolBarTest -->
+    </classes>
+  </test> <!-- Toolbar(failed) -->
+  <test thread-count="5" name="DragAndDrop(failed)">
+    <parameter name="endpoint" value="demo-site/draganddrop/"/>
+    <classes>
+      <class name="tests.DragAndDropTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+          <include name="testForAlltoDragAndDrop"/>
+          <include name="tearEnd"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- tests.DragAndDropTest -->
+    </classes>
+  </test> <!-- DragAndDrop(failed) -->
+  <test thread-count="5" name="DraggableBox(failed)">
+    <parameter name="endpoint" value="demo-site/draganddrop/"/>
+    <classes>
+      <class name="tests.DraggableBoxTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testforDraggableBox"/>
+          <include name="teardown"/>
+          <include name="tearEnd"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- tests.DraggableBoxTest -->
+    </classes>
+  </test> <!-- DraggableBox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

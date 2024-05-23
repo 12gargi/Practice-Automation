@@ -2,6 +2,8 @@ package pageEvent;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +18,7 @@ public class ProgressBar implements FirstStep{
 
 	WebDriver driver;
 	WebDriverWait wait;
+	Logger log;
 	
     @FindBy(css=frameProgress)
 	
@@ -37,6 +40,7 @@ public class ProgressBar implements FirstStep{
     public ProgressBar(WebDriver driver) {
 	    this.driver = driver;
 	    this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+	    this.log = LogManager.getLogger(ProgressBar.class);
 	    PageFactory.initElements(driver, this);
 	    
 	}
@@ -44,15 +48,19 @@ public class ProgressBar implements FirstStep{
     public void ProgressBarButtonVerification(WebDriver driver) throws InterruptedException {
     	
 //    	wait.until(ExpectedConditions.visibilityOf(iframe));
+    	log.info("Test for ProgressBar Button");
     	Thread.sleep(10000);
     	driver.switchTo().frame(iframe);
+    	log.info("switched into iframe");
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
     	btn.click();
     	
     	Assert.assertTrue(FileD.isDisplayed(), "Image is not displayed");
+    	
     }
     
     public void ProgressBarcompletes100Percent() {
+    	log.info("Test for ProgressBar completion");
         try {
 //        	wait.until(ExpectedConditions.visibilityOf(iframe));
         	Thread.sleep(10000);

@@ -3,6 +3,8 @@ package pageEvent;
 import java.time.Duration;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +19,7 @@ import pageObject.SecondStep;
 
 public class AccordionsAndTabs implements SecondStep {
  
-	
+	Logger log;
 	WebDriver driver;
 	WebDriverWait wait;
 	
@@ -31,6 +33,7 @@ public class AccordionsAndTabs implements SecondStep {
 	{
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10)); 
+		this.log = LogManager.getLogger(AccordionsAndTabs.class);
 		PageFactory.initElements(driver, this);
 	}
 	
@@ -40,10 +43,12 @@ public class AccordionsAndTabs implements SecondStep {
 //    	  wait.until(ExpectedConditions.visibilityOf(Aframe));
     	  Thread.sleep(10000);
           driver.switchTo().frame(Aframe);
+          log.info("switched into iframe");
       }
 
       public void accordionsIsWorking() throws InterruptedException 
       {
+    	        log.info("test for Accordions");
     	        switchToAframe();
     	        wait.until(ExpectedConditions.visibilityOf(header));
     	        List<WebElement> allHeaders = header.findElements(By.cssSelector(".ui-accordion-header"));

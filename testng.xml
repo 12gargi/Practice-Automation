@@ -1,73 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <!-- <test thread-count="2" name="DialogBox">
-    <parameter name="endpoint" value="dialog-boxes/" />
+   <test thread-count="2" name="DialogBox">
+    <parameter name="endpoint" value="demo-site/dialog-boxes/" />
     <classes>
       <class name="tests.DialogBoxTest"/>
     </classes>
-  </test>  -->
+  </test>  
 
-  <!--<test thread-count="2" name="Accordions">
-    <parameter name="endpoint" value="accordion-and-tabs/" />
+  <test thread-count="2" name="Accordions">
+    <parameter name="endpoint" value="demo-site/accordion-and-tabs/" />
     <classes>
       <class name="tests.AccordionTests"/>
     </classes>
-  </test>   -->
+  </test>  
   
   <test thread-count="2" name="Dropdown">
-    <parameter name="endpoint" value="select-dropdown-menu/" />
+    <parameter name="endpoint" value="demo-site/select-dropdown-menu/" />
     <classes>
       <class name="tests.DropDownTest"/>
     </classes>
   </test>
   
-    <!--  <test thread-count="2" name="ProgressBar">
-    <parameter name="endpoint" value="progress-bar/" />
+     <test thread-count="2" name="ProgressBar">
+    <parameter name="endpoint" value="demo-site/progress-bar/" />
     <classes>
       <class name="tests.ProgressBarTest"/>
     </classes>
-  </test>-->
+  </test>
   
   <test thread-count="2" name="Sliders">
-    <parameter name="endpoint" value="sliders/" />
+    <parameter name="endpoint" value="demo-site/sliders/" />
     <classes>
       <class name="tests.SliderTest"/>
     </classes>
   </test>
   
   <test thread-count="2" name="Frames_Windows">
-    <parameter name="endpoint" value="frames-and-windows/" />
+    <parameter name="endpoint" value="demo-site/frames-and-windows/" />
     <classes>
       <class name="tests.TabsAndWindowsTest"/>
     </classes>
   </test>
   
   <test thread-count="2" name="Tooltip">
-    <parameter name="endpoint" value="tooltip/" />
+    <parameter name="endpoint" value="demo-site/tooltip/" />
     <classes>
       <class name="tests.ToolTipTest"/>
     </classes>
   </test>
   
-  <!-- <test thread-count="2" name="MultipleElements">
-    <parameter name="endpoint" value="select-elements/" />
+ <test thread-count="2" name="MultipleElements">
+    <parameter name="endpoint" value="demo-site/select-elements/" />
     <classes>
       <class name="tests.SelectElementsTest"/>
     </classes>
-  </test> -->
+  </test> 
   
   <test thread-count="2" name="Spinner">
-    <parameter name="endpoint" value="spinner/" />
+    <parameter name="endpoint" value="demo-site/spinner/" />
     <classes>
       <class name="tests.SpinnerTest"/>
     </classes>
   </test>
   
    <test thread-count="2" name="Sorting">
-       <parameter name="endpoint" value="sorting/" />
+       <parameter name="endpoint" value="demo-site/sorting/" />
     <classes>
       <class name="tests.SortableTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" name="Toolbar">
+       <parameter name="endpoint" value="demo-site/toolbar/" />
+    <classes>
+      <class name="tests.ToolBarTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" name="DatePicker">
+       <parameter name="endpoint" value="demo-site/datepicker/" />
+    <classes>
+      <class name="tests.DatepickerTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" name="DragAndDrop">
+       <parameter name="endpoint" value="demo-site/draganddrop/" />
+    <classes>
+      <class name="tests.DragAndDropTest"/>
+    </classes>
+  </test>
+  
+  <test thread-count="2" name="DraggableBox">
+       <parameter name="endpoint" value="demo-site/draganddrop/" />
+    <classes>
+      <class name="tests.DraggableBoxTest"/>
+    </classes>
+  </test>
+  
+   <test thread-count="2" name="SampleTest">
+       <parameter name="endpoint" value="samplepagetest/" />
+    <classes>
+      <class name="tests.SampletestTest"/>
     </classes>
   </test>
   

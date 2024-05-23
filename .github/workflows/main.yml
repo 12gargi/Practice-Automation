@@ -2,11 +2,11 @@ name: Component testing
 
 on:
   push:
-    branches: 
+    branches:
       - main
       - master
   pull_request:
-    branches: 
+    branches:
       - main
       - master
 
@@ -16,16 +16,19 @@ jobs:
     steps:
       - name: Checkout codes
         uses: actions/checkout@v4
-      
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-      
-      - name: Run  Tests
-        run: mvn test -Dtest=tests.AccordionTests,tests.DatepickerTest,tests.DialogBoxTest,tests.DragAndDropTest,tests.DraggableBoxTest,tests.DropDownTest,tests.ProgressBarTest,tests.SampletestTest,tests.SelectElementsTest,tests.SliderTest,tests.SortableTest,tests.SpinnerTest,tests.TabsAndWindowsTest,test.ToolBarTest,tests.ToolTipTest
+
+      - name: Install TestNG
+        run: mvn dependency:get -Dartifact=org.testng:testng:7.4.0 -Ddest=lib
+
+      - name: Run Tests with TestNG
+        run: mvn clean test -Dsurefire.suiteXmlFiles=testng.xml
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3

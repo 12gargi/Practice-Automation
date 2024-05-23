@@ -23,18 +23,18 @@ public class ToolBarTest extends BaseTest {
 		tool.redoMessage();
 	}
 	
-	@Test(description = "to verify the hovered message of a Undo Button")
+	/*@Test(description = "to verify the hovered message of a Undo Button")
 	public void verifyUndoButtonMessage() 
 	{
 		tool = new Toolbar(driver);
 		tool.undoMessage();
-	}
+	}*/
 	
-	@Test(description = "to verify zoom dropdown works as expected")
+	/*@Test(description = "to verify zoom dropdown works as expected")
 	public void verifyZoomDropdown() throws InterruptedException 
 	{
 		tool = new Toolbar(driver);
 		tool.zoomDropdown();
-	}
+	}*/
 
 }

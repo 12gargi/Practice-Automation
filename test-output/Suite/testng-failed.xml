@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="MultipleElements(failed)">
-    <parameter name="endpoint" value="demo-site/select-elements/"/>
+  <test thread-count="5" name="Toolbar(failed)">
+    <parameter name="endpoint" value="demo-site/toolbar/"/>
     <classes>
-      <class name="tests.SelectElementsTest">
+      <class name="tests.ToolBarTest">
         <methods>
           <include name="beforeTest"/>
           <include name="teardown"/>
+          <include name="verifyZoomDropdown"/>
+          <include name="verifyUndoButtonMessage"/>
           <include name="tearEnd"/>
           <include name="startUp"/>
-          <include name="toVerifyMultipleSelect"/>
         </methods>
-      </class> <!-- tests.SelectElementsTest -->
+      </class> <!-- tests.ToolBarTest -->
     </classes>
-  </test> <!-- MultipleElements(failed) -->
+  </test> <!-- Toolbar(failed) -->
 </suite> <!-- Failed suite [Suite] -->

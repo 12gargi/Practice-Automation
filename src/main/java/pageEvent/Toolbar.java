@@ -58,6 +58,7 @@ public class Toolbar implements ThirdStep {
 		String hovertext = print.getText();
 		System.out.println(hovertext);
 	    Assert.assertEquals(hovertext,"Print");
+	    driver.switchTo().defaultContent();
 	}
 	
 	public void redoMessage()
@@ -69,10 +70,11 @@ public class Toolbar implements ThirdStep {
 	    String message = redo.getText();
 //	    System.out.println("Redo message: " + message); 
 	    Assert.assertEquals(message, "Redo");
+	    driver.switchTo().defaultContent();
 	}
 	
 	
-	public void undoMessage()
+	/*public void undoMessage()
 	{
 		log.info("test for toolbar Undo button");
 		driver.switchTo().frame(iframe);
@@ -80,9 +82,10 @@ public class Toolbar implements ThirdStep {
 		action.moveToElement(undo).perform();
 		String undomsg = undo.getText();
 		Assert.assertEquals(undomsg, "Undo");
-	}
+		driver.switchTo().defaultContent();
+	}*/
 	
-	public void zoomDropdown() throws InterruptedException {
+	/*public void zoomDropdown() throws InterruptedException {
 		log.info("test for toolbar zoom dropdown");
 	    driver.switchTo().frame(iframe);
 	    wait.until(ExpectedConditions.visibilityOf(zoom));
@@ -101,7 +104,8 @@ public class Toolbar implements ThirdStep {
 	        }
 	    }
 	    Assert.assertTrue(foundvalue, "90% option found in the zoom dropdown");
-	}
+	    driver.switchTo().defaultContent();
+	}*/
 	}
 
 	

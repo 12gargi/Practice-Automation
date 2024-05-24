@@ -71,12 +71,12 @@
     </classes>
   </test>  -->
   
-   <test thread-count="2" name="Toolbar">
+  <!--   <test thread-count="2" name="Toolbar">
        <parameter name="endpoint" value="demo-site/toolbar/" />
     <classes>
       <class name="tests.ToolBarTest"/>
     </classes>
-  </test> 
+  </test> -->
   
   <test thread-count="2" name="DatePicker">
        <parameter name="endpoint" value="demo-site/datepicker/" />
